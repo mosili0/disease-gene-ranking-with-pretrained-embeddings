@@ -1,0 +1,48 @@
+﻿key,text,condition
+disease_breast_cancer,hereditary breast and ovarian cancer syndrome DNA damage repair homologous recombination tumor suppressor,mechanism-informed
+disease_colorectal_cancer,colorectal cancer familial adenomatous polyposis Lynch syndrome mismatch repair WNT signaling,mechanism-informed
+disease_lung_cancer,non-small cell lung cancer lung adenocarcinoma epidermal growth factor receptor tyrosine kinase,mechanism-informed
+disease_parkinson,Parkinson disease neurodegeneration dopaminergic neuron alpha-synuclein mitochondrial quality control,mechanism-informed
+disease_alzheimer,Alzheimer disease amyloid beta precursor protein tau neurofibrillary tangle neuroinflammation,mechanism-informed
+drug_imatinib,imatinib tyrosine kinase inhibitor BCR-ABL chronic myeloid leukemia gastrointestinal stromal tumor,mechanism-informed
+drug_gefitinib,gefitinib epidermal growth factor receptor EGFR tyrosine kinase inhibitor non-small cell lung cancer,mechanism-informed
+drug_trastuzumab,trastuzumab HER2 ERBB2 monoclonal antibody breast cancer,mechanism-informed
+drug_venetoclax,venetoclax BCL2 inhibitor apoptosis chronic lymphocytic leukemia,mechanism-informed
+drug_aspirin,aspirin acetylsalicylic acid cyclooxygenase COX inhibitor antiplatelet analgesic,mechanism-informed
+drug_atorvastatin,atorvastatin statin HMG-CoA reductase inhibitor cholesterol lowering,mechanism-informed
+drug_alendronate,alendronate bisphosphonate farnesyl diphosphate synthase inhibitor osteoporosis,mechanism-informed
+drug_rivaroxaban,rivaroxaban direct factor Xa inhibitor anticoagulant,mechanism-informed
+drug_warfarin,warfarin vitamin K epoxide reductase inhibitor anticoagulant coumarin,mechanism-informed
+drug_omeprazole,omeprazole proton pump inhibitor gastric acid secretion peptic ulcer,mechanism-informed
+drug_fluoxetine,fluoxetine selective serotonin reuptake inhibitor SSRI antidepressant,mechanism-informed
+drug_empagliflozin,empagliflozin SGLT2 sodium glucose cotransporter inhibitor type 2 diabetes,mechanism-informed
+drug_donepezil,donepezil acetylcholinesterase inhibitor Alzheimer disease dementia,mechanism-informed
+drug_rituximab,rituximab anti-CD20 monoclonal antibody B cell lymphoma,mechanism-informed
+drug_bevacizumab,bevacizumab anti-VEGF monoclonal antibody angiogenesis inhibitor,mechanism-informed
+drug_haloperidol,haloperidol antipsychotic dopamine D2 receptor antagonist schizophrenia,mechanism-informed
+drug_dasatinib,dasatinib multi-targeted BCR-ABL SRC family kinase inhibitor chronic myeloid leukemia,mechanism-informed
+drug_sorafenib,sorafenib multi-kinase inhibitor RAF VEGFR PDGFR hepatocellular carcinoma renal cell carcinoma,mechanism-informed
+drug_crizotinib,crizotinib ALK MET ROS1 tyrosine kinase inhibitor non-small cell lung cancer,mechanism-informed
+drug_palbociclib,palbociclib CDK4 CDK6 cyclin dependent kinase inhibitor breast cancer,mechanism-informed
+drug_sunitinib,sunitinib multi-targeted receptor tyrosine kinase inhibitor VEGFR PDGFR renal cell carcinoma,mechanism-informed
+drug_indication_imatinib,chronic myeloid leukemia gastrointestinal stromal tumor treatment,indication-only
+drug_indication_gefitinib,non-small cell lung cancer treatment,indication-only
+drug_indication_trastuzumab,breast cancer gastric cancer treatment,indication-only
+drug_indication_venetoclax,chronic lymphocytic leukemia acute myeloid leukemia treatment,indication-only
+drug_indication_aspirin,pain fever inflammation prevention of arterial thrombosis,indication-only
+drug_indication_atorvastatin,hypercholesterolemia prevention of cardiovascular disease,indication-only
+drug_indication_alendronate,osteoporosis prevention of bone fractures,indication-only
+drug_indication_rivaroxaban,prevention of stroke and systemic embolism venous thrombosis,indication-only
+drug_indication_warfarin,prevention of stroke and systemic embolism venous thrombosis,indication-only
+drug_indication_omeprazole,gastroesophageal reflux disease peptic ulcer treatment,indication-only
+drug_indication_fluoxetine,major depressive disorder obsessive compulsive disorder treatment,indication-only
+drug_indication_empagliflozin,type 2 diabetes mellitus heart failure treatment,indication-only
+drug_indication_donepezil,Alzheimer disease dementia symptomatic treatment,indication-only
+drug_indication_rituximab,B cell non-Hodgkin lymphoma rheumatoid arthritis treatment,indication-only
+drug_indication_bevacizumab,colorectal cancer lung cancer treatment,indication-only
+drug_indication_haloperidol,schizophrenia psychosis treatment,indication-only
+drug_indication_dasatinib,chronic myeloid leukemia acute lymphoblastic leukemia treatment,indication-only
+drug_indication_sorafenib,hepatocellular carcinoma renal cell carcinoma treatment,indication-only
+drug_indication_crizotinib,non-small cell lung cancer treatment,indication-only
+drug_indication_palbociclib,advanced or metastatic breast cancer treatment,indication-only
+drug_indication_sunitinib,renal cell carcinoma gastrointestinal stromal tumor treatment,indication-only

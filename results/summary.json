@@ -1,0 +1,108 @@
+{
+ "protocol": "leave-one-positive-out_seed-excluded_v2",
+ "task1": [
+  {
+   "model": "esm",
+   "n_genes": 81,
+   "n_pairs": 3240,
+   "n_pos_pairs": 1421,
+   "n_neg_pairs": 1819,
+   "spearman_cosine_vs_go_jaccard": 0.12702457898082786,
+   "roc_auc_shared_go": 0.55849332965542,
+   "precision_at_10": 0.5555555555555556,
+   "random_precision_at_10": 0.4385802469135803,
+   "permutation_p_auc": 0.056,
+   "n_permutations": 999,
+   "permutation_q_auc_bh": 0.07
+  },
+  {
+   "model": "biobert",
+   "n_genes": 81,
+   "n_pairs": 3240,
+   "n_pos_pairs": 1421,
+   "n_neg_pairs": 1819,
+   "spearman_cosine_vs_go_jaccard": 0.5108028370613593,
+   "roc_auc_shared_go": 0.7866609744123237,
+   "precision_at_10": 0.7135802469135804,
+   "random_precision_at_10": 0.4385802469135803,
+   "permutation_p_auc": 0.001,
+   "n_permutations": 999,
+   "permutation_q_auc_bh": 0.0016666666666666668
+  },
+  {
+   "model": "aac",
+   "n_genes": 81,
+   "n_pairs": 3240,
+   "n_pos_pairs": 1421,
+   "n_neg_pairs": 1819,
+   "spearman_cosine_vs_go_jaccard": 0.02895478611581459,
+   "roc_auc_shared_go": 0.4961517317207257,
+   "precision_at_10": 0.49629629629629635,
+   "random_precision_at_10": 0.4385802469135803,
+   "permutation_p_auc": 0.544,
+   "n_permutations": 999,
+   "permutation_q_auc_bh": 0.544
+  },
+  {
+   "model": "tfidf",
+   "n_genes": 81,
+   "n_pairs": 3240,
+   "n_pos_pairs": 1421,
+   "n_neg_pairs": 1819,
+   "spearman_cosine_vs_go_jaccard": 0.4964146361280307,
+   "roc_auc_shared_go": 0.7772614040782281,
+   "precision_at_10": 0.7057098765432099,
+   "random_precision_at_10": 0.4385802469135803,
+   "permutation_p_auc": 0.001,
+   "n_permutations": 999,
+   "permutation_q_auc_bh": 0.0016666666666666668
+  },
+  {
+   "model": "fusion",
+   "n_genes": 81,
+   "n_pairs": 3240,
+   "n_pos_pairs": 1421,
+   "n_neg_pairs": 1819,
+   "spearman_cosine_vs_go_jaccard": 0.2375715538591526,
+   "roc_auc_shared_go": 0.6232312454469381,
+   "precision_at_10": 0.6234567901234568,
+   "random_precision_at_10": 0.4385802469135803,
+   "permutation_p_auc": 0.001,
+   "n_permutations": 999,
+   "permutation_q_auc_bh": 0.0016666666666666668
+  }
+ ],
+ "task2_centroid_mean_auc": {
+  "aac": 0.5193193232371315,
+  "biobert": 0.7471230702326592,
+  "esm": 0.6363798122976205,
+  "fusion": 0.6572189782737728,
+  "tfidf": 0.7967947262330825
+ },
+ "task2_query_mean_auc": {
+  "biobert": 0.7993341208135728,
+  "tfidf": 0.8676370421301929
+ },
+ "task3_query_mean_auc": [
+  {
+   "model": "biobert",
+   "method": "indication-query",
+   "auc": 0.6820764559510157
+  },
+  {
+   "model": "biobert",
+   "method": "mechanism-query",
+   "auc": 0.9243571932017731
+  },
+  {
+   "model": "tfidf",
+   "method": "indication-query",
+   "auc": 0.5576948387631742
+  },
+  {
+   "model": "tfidf",
+   "method": "mechanism-query",
+   "auc": 0.9326272817735651
+  }
+ ]
+}

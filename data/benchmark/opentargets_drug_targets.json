@@ -1,0 +1,645 @@
+{
+ "imatinib": {
+  "chembl_id": "CHEMBL941",
+  "pref_name": "IMATINIB",
+  "targets": [
+   {
+    "symbol": "ABL1",
+    "target_id": "ENSG00000097007",
+    "action_type": "INHIBITOR",
+    "moa": "Tyrosine-protein kinase ABL inhibitor",
+    "target_name": "Tyrosine-protein kinase ABL1",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "PDGFRB",
+    "target_id": "ENSG00000113721",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor beta inhibitor",
+    "target_name": "Platelet-derived growth factor receptor beta",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "KIT",
+    "target_id": "ENSG00000157404",
+    "action_type": "INHIBITOR",
+    "moa": "Stem cell growth factor receptor inhibitor",
+    "target_name": "Mast/stem cell growth factor receptor Kit",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "ABL1",
+    "target_id": "ENSG00000097007",
+    "action_type": "INHIBITOR",
+    "moa": "Bcr/Abl fusion protein inhibitor",
+    "target_name": "Bcr/Abl fusion protein",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "BCR",
+    "target_id": "ENSG00000186716",
+    "action_type": "INHIBITOR",
+    "moa": "Bcr/Abl fusion protein inhibitor",
+    "target_name": "Bcr/Abl fusion protein",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "gefitinib": {
+  "chembl_id": "CHEMBL939",
+  "pref_name": "GEFITINIB",
+  "targets": [
+   {
+    "symbol": "EGFR",
+    "target_id": "ENSG00000146648",
+    "action_type": "INHIBITOR",
+    "moa": "Epidermal growth factor receptor erbB1 inhibitor",
+    "target_name": "Epidermal growth factor receptor",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "trastuzumab": {
+  "chembl_id": "CHEMBL1201585",
+  "pref_name": "TRASTUZUMAB",
+  "targets": [
+   {
+    "symbol": "ERBB2",
+    "target_id": "ENSG00000141736",
+    "action_type": "INHIBITOR",
+    "moa": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+    "target_name": "Receptor tyrosine-protein kinase erbB-2",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "venetoclax": {
+  "chembl_id": "CHEMBL3137309",
+  "pref_name": "VENETOCLAX",
+  "targets": [
+   {
+    "symbol": "BCL2",
+    "target_id": "ENSG00000171791",
+    "action_type": "INHIBITOR",
+    "moa": "Apoptosis regulator Bcl-2 inhibitor",
+    "target_name": "Apoptosis regulator Bcl-2",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "aspirin": {
+  "chembl_id": "CHEMBL25",
+  "pref_name": "ASPIRIN",
+  "targets": [
+   {
+    "symbol": "PTGS2",
+    "target_id": "ENSG00000073756",
+    "action_type": "INHIBITOR",
+    "moa": "Cyclooxygenase inhibitor",
+    "target_name": "Cyclooxygenase",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "PTGS1",
+    "target_id": "ENSG00000095303",
+    "action_type": "INHIBITOR",
+    "moa": "Cyclooxygenase inhibitor",
+    "target_name": "Cyclooxygenase",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "atorvastatin": {
+  "chembl_id": "CHEMBL1487",
+  "pref_name": "ATORVASTATIN",
+  "targets": [
+   {
+    "symbol": "HMGCR",
+    "target_id": "ENSG00000113161",
+    "action_type": "INHIBITOR",
+    "moa": "HMG-CoA reductase inhibitor",
+    "target_name": "3-hydroxy-3-methylglutaryl-coenzyme A reductase",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "alendronate": {
+  "chembl_id": "CHEMBL870",
+  "pref_name": "ALENDRONIC ACID",
+  "targets": [
+   {
+    "symbol": "FDPS",
+    "target_id": "ENSG00000160752",
+    "action_type": "INHIBITOR",
+    "moa": "Farnesyl diphosphate synthase inhibitor",
+    "target_name": "Farnesyl pyrophosphate synthase",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "rivaroxaban": {
+  "chembl_id": "CHEMBL198362",
+  "pref_name": "RIVAROXABAN",
+  "targets": [
+   {
+    "symbol": "F10",
+    "target_id": "ENSG00000126218",
+    "action_type": "INHIBITOR",
+    "moa": "Coagulation factor X inhibitor",
+    "target_name": "Coagulation factor X",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "warfarin": {
+  "chembl_id": "CHEMBL1464",
+  "pref_name": "WARFARIN",
+  "targets": [
+   {
+    "symbol": "VKORC1",
+    "target_id": "ENSG00000167397",
+    "action_type": "INHIBITOR",
+    "moa": "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor",
+    "target_name": "Vitamin K epoxide reductase complex subunit 1",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "omeprazole": {
+  "chembl_id": "CHEMBL1503",
+  "pref_name": "OMEPRAZOLE",
+  "targets": [
+   {
+    "symbol": "ATP4A",
+    "target_id": "ENSG00000105675",
+    "action_type": "INHIBITOR",
+    "moa": "Potassium-transporting ATPase inhibitor",
+    "target_name": "Potassium-transporting ATPase",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "ATP4B",
+    "target_id": "ENSG00000186009",
+    "action_type": "INHIBITOR",
+    "moa": "Potassium-transporting ATPase inhibitor",
+    "target_name": "Potassium-transporting ATPase",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "fluoxetine": {
+  "chembl_id": "CHEMBL41",
+  "pref_name": "FLUOXETINE",
+  "targets": [
+   {
+    "symbol": "SLC6A4",
+    "target_id": "ENSG00000108576",
+    "action_type": "INHIBITOR",
+    "moa": "Serotonin transporter inhibitor",
+    "target_name": "Sodium-dependent serotonin transporter",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "empagliflozin": {
+  "chembl_id": "CHEMBL2107830",
+  "pref_name": "EMPAGLIFLOZIN",
+  "targets": [
+   {
+    "symbol": "SLC5A2",
+    "target_id": "ENSG00000140675",
+    "action_type": "INHIBITOR",
+    "moa": "Sodium/glucose cotransporter 2 inhibitor",
+    "target_name": "Sodium/glucose cotransporter 2",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "donepezil": {
+  "chembl_id": "CHEMBL502",
+  "pref_name": "DONEPEZIL",
+  "targets": [
+   {
+    "symbol": "ACHE",
+    "target_id": "ENSG00000087085",
+    "action_type": "INHIBITOR",
+    "moa": "Acetylcholinesterase inhibitor",
+    "target_name": "Acetylcholinesterase",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "rituximab": {
+  "chembl_id": "CHEMBL1201576",
+  "pref_name": "RITUXIMAB",
+  "targets": [
+   {
+    "symbol": "MS4A1",
+    "target_id": "ENSG00000156738",
+    "action_type": "BINDING AGENT",
+    "moa": "B-lymphocyte antigen CD20 binding agent",
+    "target_name": "B-lymphocyte antigen CD20",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "bevacizumab": {
+  "chembl_id": "CHEMBL1201583",
+  "pref_name": "BEVACIZUMAB",
+  "targets": [
+   {
+    "symbol": "VEGFA",
+    "target_id": "ENSG00000112715",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor A inhibitor",
+    "target_name": "Vascular endothelial growth factor A, long form",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "haloperidol": {
+  "chembl_id": "CHEMBL54",
+  "pref_name": "HALOPERIDOL",
+  "targets": [
+   {
+    "symbol": "HTR2A",
+    "target_id": "ENSG00000102468",
+    "action_type": "ANTAGONIST",
+    "moa": "Serotonin 2a (5-HT2a) receptor antagonist",
+    "target_name": "5-hydroxytryptamine receptor 2A",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "DRD2",
+    "target_id": "ENSG00000149295",
+    "action_type": "INVERSE AGONIST",
+    "moa": "D2-like dopamine receptor inverse agonist",
+    "target_name": "D2-like dopamine receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "DRD3",
+    "target_id": "ENSG00000151577",
+    "action_type": "INVERSE AGONIST",
+    "moa": "D2-like dopamine receptor inverse agonist",
+    "target_name": "D2-like dopamine receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "DRD4",
+    "target_id": "ENSG00000069696",
+    "action_type": "INVERSE AGONIST",
+    "moa": "D2-like dopamine receptor inverse agonist",
+    "target_name": "D2-like dopamine receptor",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "dasatinib": {
+  "chembl_id": "CHEMBL5416410",
+  "pref_name": "DASATINIB",
+  "targets": [
+   {
+    "symbol": "ABL1",
+    "target_id": "ENSG00000097007",
+    "action_type": "INHIBITOR",
+    "moa": "Bcr/Abl fusion protein inhibitor",
+    "target_name": "Bcr/Abl fusion protein",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "BCR",
+    "target_id": "ENSG00000186716",
+    "action_type": "INHIBITOR",
+    "moa": "Bcr/Abl fusion protein inhibitor",
+    "target_name": "Bcr/Abl fusion protein",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "sorafenib": {
+  "chembl_id": "CHEMBL1336",
+  "pref_name": "SORAFENIB",
+  "targets": [
+   {
+    "symbol": "RAF1",
+    "target_id": "ENSG00000132155",
+    "action_type": "INHIBITOR",
+    "moa": "Serine/threonine-protein kinase RAF inhibitor",
+    "target_name": "RAF proto-oncogene serine/threonine-protein kinase",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "PDGFRB",
+    "target_id": "ENSG00000113721",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor beta inhibitor",
+    "target_name": "Platelet-derived growth factor receptor beta",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "KIT",
+    "target_id": "ENSG00000157404",
+    "action_type": "INHIBITOR",
+    "moa": "Stem cell growth factor receptor inhibitor",
+    "target_name": "Mast/stem cell growth factor receptor Kit",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "FLT3",
+    "target_id": "ENSG00000122025",
+    "action_type": "INHIBITOR",
+    "moa": "Tyrosine-protein kinase receptor FLT3 inhibitor",
+    "target_name": "Receptor-type tyrosine-protein kinase FLT3",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "BRAF",
+    "target_id": "ENSG00000157764",
+    "action_type": "INHIBITOR",
+    "moa": "Serine/threonine-protein kinase B-raf inhibitor",
+    "target_name": "Serine/threonine-protein kinase B-raf",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "FLT1",
+    "target_id": "ENSG00000102755",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "FLT4",
+    "target_id": "ENSG00000037280",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "KDR",
+    "target_id": "ENSG00000128052",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "RET",
+    "target_id": "ENSG00000165731",
+    "action_type": "INHIBITOR",
+    "moa": "Tyrosine-protein kinase receptor RET inhibitor",
+    "target_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "crizotinib": {
+  "chembl_id": "CHEMBL601719",
+  "pref_name": "CRIZOTINIB",
+  "targets": [
+   {
+    "symbol": "MET",
+    "target_id": "ENSG00000105976",
+    "action_type": "INHIBITOR",
+    "moa": "Hepatocyte growth factor receptor inhibitor",
+    "target_name": "Hepatocyte growth factor receptor",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "ALK",
+    "target_id": "ENSG00000171094",
+    "action_type": "INHIBITOR",
+    "moa": "ALK tyrosine kinase receptor inhibitor",
+    "target_name": "ALK tyrosine kinase receptor",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "ALK",
+    "target_id": "ENSG00000171094",
+    "action_type": "INHIBITOR",
+    "moa": "EML4-ALK inhibitor",
+    "target_name": "EML4-ALK",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "EML4",
+    "target_id": "ENSG00000143924",
+    "action_type": "INHIBITOR",
+    "moa": "EML4-ALK inhibitor",
+    "target_name": "EML4-ALK",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "ALK",
+    "target_id": "ENSG00000171094",
+    "action_type": "INHIBITOR",
+    "moa": "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor",
+    "target_name": "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor)",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "NPM1",
+    "target_id": "ENSG00000181163",
+    "action_type": "INHIBITOR",
+    "moa": "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor",
+    "target_name": "NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor)",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "ROS1",
+    "target_id": "ENSG00000047936",
+    "action_type": "INHIBITOR",
+    "moa": "Proto-oncogene tyrosine-protein kinase ROS inhibitor",
+    "target_name": "Proto-oncogene tyrosine-protein kinase ROS",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "MST1R",
+    "target_id": "ENSG00000164078",
+    "action_type": "INHIBITOR",
+    "moa": "Macrophage-stimulating protein receptor inhibitor",
+    "target_name": "Macrophage-stimulating protein receptor",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "palbociclib": {
+  "chembl_id": "CHEMBL189963",
+  "pref_name": "PALBOCICLIB",
+  "targets": [
+   {
+    "symbol": "CCND1",
+    "target_id": "ENSG00000110092",
+    "action_type": "INHIBITOR",
+    "moa": "CDK6/cyclin D1 inhibitor",
+    "target_name": "CDK6/cyclin D1",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "CDK6",
+    "target_id": "ENSG00000105810",
+    "action_type": "INHIBITOR",
+    "moa": "CDK6/cyclin D1 inhibitor",
+    "target_name": "CDK6/cyclin D1",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "CDK4",
+    "target_id": "ENSG00000135446",
+    "action_type": "INHIBITOR",
+    "moa": "Cyclin-dependent kinase 4/cyclin D1 inhibitor",
+    "target_name": "Cyclin-dependent kinase 4/cyclin D1",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "CCND1",
+    "target_id": "ENSG00000110092",
+    "action_type": "INHIBITOR",
+    "moa": "Cyclin-dependent kinase 4/cyclin D1 inhibitor",
+    "target_name": "Cyclin-dependent kinase 4/cyclin D1",
+    "complex_mapping": true
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ },
+ "sunitinib": {
+  "chembl_id": "CHEMBL535",
+  "pref_name": "SUNITINIB",
+  "targets": [
+   {
+    "symbol": "CSF1R",
+    "target_id": "ENSG00000182578",
+    "action_type": "INHIBITOR",
+    "moa": "Macrophage colony stimulating factor receptor inhibitor",
+    "target_name": "Macrophage colony-stimulating factor 1 receptor",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "KIT",
+    "target_id": "ENSG00000157404",
+    "action_type": "INHIBITOR",
+    "moa": "Stem cell growth factor receptor inhibitor",
+    "target_name": "Mast/stem cell growth factor receptor Kit",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "FLT3",
+    "target_id": "ENSG00000122025",
+    "action_type": "INHIBITOR",
+    "moa": "Tyrosine-protein kinase receptor FLT3 inhibitor",
+    "target_name": "Receptor-type tyrosine-protein kinase FLT3",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "PDGFRB",
+    "target_id": "ENSG00000113721",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor inhibitor",
+    "target_name": "Platelet-derived growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "PDGFRA",
+    "target_id": "ENSG00000134853",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor inhibitor",
+    "target_name": "Platelet-derived growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "FLT1",
+    "target_id": "ENSG00000102755",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "FLT4",
+    "target_id": "ENSG00000037280",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "KDR",
+    "target_id": "ENSG00000128052",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor",
+    "complex_mapping": true
+   },
+   {
+    "symbol": "RET",
+    "target_id": "ENSG00000165731",
+    "action_type": "INHIBITOR",
+    "moa": "Tyrosine-protein kinase receptor RET inhibitor",
+    "target_name": "Proto-oncogene tyrosine-protein kinase receptor Ret",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "KDR",
+    "target_id": "ENSG00000128052",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor 2 inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor 2",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "PDGFRB",
+    "target_id": "ENSG00000113721",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor beta inhibitor",
+    "target_name": "Platelet-derived growth factor receptor beta",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "PDGFRA",
+    "target_id": "ENSG00000134853",
+    "action_type": "INHIBITOR",
+    "moa": "Platelet-derived growth factor receptor alpha inhibitor",
+    "target_name": "Platelet-derived growth factor receptor alpha",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "FLT1",
+    "target_id": "ENSG00000102755",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor 1 inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor 1",
+    "complex_mapping": false
+   },
+   {
+    "symbol": "FLT4",
+    "target_id": "ENSG00000037280",
+    "action_type": "INHIBITOR",
+    "moa": "Vascular endothelial growth factor receptor 3 inhibitor",
+    "target_name": "Vascular endothelial growth factor receptor 3",
+    "complex_mapping": false
+   }
+  ],
+  "fetch_date": "2026-11-03"
+ }
+}

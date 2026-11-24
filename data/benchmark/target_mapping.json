@@ -1,0 +1,415 @@
+{
+ "fetch_date": "2026-11-03",
+ "genes": [
+  "BRCA1",
+  "BRCA2",
+  "ATM",
+  "CHEK2",
+  "PALB2",
+  "RAD51",
+  "BRIP1",
+  "MSH2",
+  "MLH1",
+  "RAD51C",
+  "FANCD2",
+  "TP53",
+  "RB1",
+  "CDKN2A",
+  "CCND1",
+  "CDK4",
+  "CDK6",
+  "MYC",
+  "BCL2",
+  "APC",
+  "CDH1",
+  "EGFR",
+  "ERBB2",
+  "KIT",
+  "PDGFRA",
+  "FLT3",
+  "RET",
+  "ALK",
+  "MET",
+  "FGFR2",
+  "VEGFA",
+  "KDR",
+  "ROS1",
+  "KRAS",
+  "HRAS",
+  "NRAS",
+  "BRAF",
+  "RAF1",
+  "MAP2K1",
+  "MAPK1",
+  "PIK3CA",
+  "AKT1",
+  "MTOR",
+  "ABL1",
+  "SRC",
+  "JAK1",
+  "JAK2",
+  "BTK",
+  "SYK",
+  "HMGCR",
+  "FDPS",
+  "PTGS1",
+  "PTGS2",
+  "VKORC1",
+  "CYP2C9",
+  "CYP2D6",
+  "ACHE",
+  "ATP4A",
+  "SLC5A2",
+  "SLC6A4",
+  "DRD2",
+  "HTR2A",
+  "ADRB2",
+  "APP",
+  "PSEN1",
+  "PSEN2",
+  "APOE",
+  "MAPT",
+  "SNCA",
+  "LRRK2",
+  "PRKN",
+  "PINK1",
+  "PARK7",
+  "GBA",
+  "TREM2",
+  "SOD1",
+  "F10",
+  "MS4A1",
+  "IL6R",
+  "TNF",
+  "F2"
+ ],
+ "aliases": {
+  "GBA": "GBA1"
+ },
+ "mapping": {
+  "BRCA1": {
+   "id": "ENSG00000012048",
+   "approved_symbol": "BRCA1"
+  },
+  "BRCA2": {
+   "id": "ENSG00000139618",
+   "approved_symbol": "BRCA2"
+  },
+  "ATM": {
+   "id": "ENSG00000149311",
+   "approved_symbol": "ATM"
+  },
+  "CHEK2": {
+   "id": "ENSG00000183765",
+   "approved_symbol": "CHEK2"
+  },
+  "PALB2": {
+   "id": "ENSG00000083093",
+   "approved_symbol": "PALB2"
+  },
+  "RAD51": {
+   "id": "ENSG00000051180",
+   "approved_symbol": "RAD51"
+  },
+  "BRIP1": {
+   "id": "ENSG00000136492",
+   "approved_symbol": "BRIP1"
+  },
+  "MSH2": {
+   "id": "ENSG00000095002",
+   "approved_symbol": "MSH2"
+  },
+  "MLH1": {
+   "id": "ENSG00000076242",
+   "approved_symbol": "MLH1"
+  },
+  "RAD51C": {
+   "id": "ENSG00000108384",
+   "approved_symbol": "RAD51C"
+  },
+  "FANCD2": {
+   "id": "ENSG00000144554",
+   "approved_symbol": "FANCD2"
+  },
+  "TP53": {
+   "id": "ENSG00000141510",
+   "approved_symbol": "TP53"
+  },
+  "RB1": {
+   "id": "ENSG00000139687",
+   "approved_symbol": "RB1"
+  },
+  "CDKN2A": {
+   "id": "ENSG00000147889",
+   "approved_symbol": "CDKN2A"
+  },
+  "CCND1": {
+   "id": "ENSG00000110092",
+   "approved_symbol": "CCND1"
+  },
+  "CDK4": {
+   "id": "ENSG00000135446",
+   "approved_symbol": "CDK4"
+  },
+  "CDK6": {
+   "id": "ENSG00000105810",
+   "approved_symbol": "CDK6"
+  },
+  "MYC": {
+   "id": "ENSG00000136997",
+   "approved_symbol": "MYC"
+  },
+  "BCL2": {
+   "id": "ENSG00000171791",
+   "approved_symbol": "BCL2"
+  },
+  "APC": {
+   "id": "ENSG00000134982",
+   "approved_symbol": "APC"
+  },
+  "CDH1": {
+   "id": "ENSG00000039068",
+   "approved_symbol": "CDH1"
+  },
+  "EGFR": {
+   "id": "ENSG00000146648",
+   "approved_symbol": "EGFR"
+  },
+  "ERBB2": {
+   "id": "ENSG00000141736",
+   "approved_symbol": "ERBB2"
+  },
+  "KIT": {
+   "id": "ENSG00000157404",
+   "approved_symbol": "KIT"
+  },
+  "PDGFRA": {
+   "id": "ENSG00000134853",
+   "approved_symbol": "PDGFRA"
+  },
+  "FLT3": {
+   "id": "ENSG00000122025",
+   "approved_symbol": "FLT3"
+  },
+  "RET": {
+   "id": "ENSG00000165731",
+   "approved_symbol": "RET"
+  },
+  "ALK": {
+   "id": "ENSG00000171094",
+   "approved_symbol": "ALK"
+  },
+  "MET": {
+   "id": "ENSG00000105976",
+   "approved_symbol": "MET"
+  },
+  "FGFR2": {
+   "id": "ENSG00000066468",
+   "approved_symbol": "FGFR2"
+  },
+  "VEGFA": {
+   "id": "ENSG00000112715",
+   "approved_symbol": "VEGFA"
+  },
+  "KDR": {
+   "id": "ENSG00000128052",
+   "approved_symbol": "KDR"
+  },
+  "ROS1": {
+   "id": "ENSG00000047936",
+   "approved_symbol": "ROS1"
+  },
+  "KRAS": {
+   "id": "ENSG00000133703",
+   "approved_symbol": "KRAS"
+  },
+  "HRAS": {
+   "id": "ENSG00000174775",
+   "approved_symbol": "HRAS"
+  },
+  "NRAS": {
+   "id": "ENSG00000213281",
+   "approved_symbol": "NRAS"
+  },
+  "BRAF": {
+   "id": "ENSG00000157764",
+   "approved_symbol": "BRAF"
+  },
+  "RAF1": {
+   "id": "ENSG00000132155",
+   "approved_symbol": "RAF1"
+  },
+  "MAP2K1": {
+   "id": "ENSG00000169032",
+   "approved_symbol": "MAP2K1"
+  },
+  "MAPK1": {
+   "id": "ENSG00000100030",
+   "approved_symbol": "MAPK1"
+  },
+  "PIK3CA": {
+   "id": "ENSG00000121879",
+   "approved_symbol": "PIK3CA"
+  },
+  "AKT1": {
+   "id": "ENSG00000142208",
+   "approved_symbol": "AKT1"
+  },
+  "MTOR": {
+   "id": "ENSG00000198793",
+   "approved_symbol": "MTOR"
+  },
+  "ABL1": {
+   "id": "ENSG00000097007",
+   "approved_symbol": "ABL1"
+  },
+  "SRC": {
+   "id": "ENSG00000197122",
+   "approved_symbol": "SRC"
+  },
+  "JAK1": {
+   "id": "ENSG00000162434",
+   "approved_symbol": "JAK1"
+  },
+  "JAK2": {
+   "id": "ENSG00000096968",
+   "approved_symbol": "JAK2"
+  },
+  "BTK": {
+   "id": "ENSG00000010671",
+   "approved_symbol": "BTK"
+  },
+  "SYK": {
+   "id": "ENSG00000165025",
+   "approved_symbol": "SYK"
+  },
+  "HMGCR": {
+   "id": "ENSG00000113161",
+   "approved_symbol": "HMGCR"
+  },
+  "FDPS": {
+   "id": "ENSG00000160752",
+   "approved_symbol": "FDPS"
+  },
+  "PTGS1": {
+   "id": "ENSG00000095303",
+   "approved_symbol": "PTGS1"
+  },
+  "PTGS2": {
+   "id": "ENSG00000073756",
+   "approved_symbol": "PTGS2"
+  },
+  "VKORC1": {
+   "id": "ENSG00000167397",
+   "approved_symbol": "VKORC1"
+  },
+  "CYP2C9": {
+   "id": "ENSG00000138109",
+   "approved_symbol": "CYP2C9"
+  },
+  "CYP2D6": {
+   "id": "ENSG00000100197",
+   "approved_symbol": "CYP2D6"
+  },
+  "ACHE": {
+   "id": "ENSG00000087085",
+   "approved_symbol": "ACHE"
+  },
+  "ATP4A": {
+   "id": "ENSG00000105675",
+   "approved_symbol": "ATP4A"
+  },
+  "SLC5A2": {
+   "id": "ENSG00000140675",
+   "approved_symbol": "SLC5A2"
+  },
+  "SLC6A4": {
+   "id": "ENSG00000108576",
+   "approved_symbol": "SLC6A4"
+  },
+  "DRD2": {
+   "id": "ENSG00000149295",
+   "approved_symbol": "DRD2"
+  },
+  "HTR2A": {
+   "id": "ENSG00000102468",
+   "approved_symbol": "HTR2A"
+  },
+  "ADRB2": {
+   "id": "ENSG00000169252",
+   "approved_symbol": "ADRB2"
+  },
+  "APP": {
+   "id": "ENSG00000142192",
+   "approved_symbol": "APP"
+  },
+  "PSEN1": {
+   "id": "ENSG00000080815",
+   "approved_symbol": "PSEN1"
+  },
+  "PSEN2": {
+   "id": "ENSG00000143801",
+   "approved_symbol": "PSEN2"
+  },
+  "APOE": {
+   "id": "ENSG00000130203",
+   "approved_symbol": "APOE"
+  },
+  "MAPT": {
+   "id": "ENSG00000186868",
+   "approved_symbol": "MAPT"
+  },
+  "SNCA": {
+   "id": "ENSG00000145335",
+   "approved_symbol": "SNCA"
+  },
+  "LRRK2": {
+   "id": "ENSG00000188906",
+   "approved_symbol": "LRRK2"
+  },
+  "PRKN": {
+   "id": "ENSG00000185345",
+   "approved_symbol": "PRKN"
+  },
+  "PINK1": {
+   "id": "ENSG00000158828",
+   "approved_symbol": "PINK1"
+  },
+  "PARK7": {
+   "id": "ENSG00000116288",
+   "approved_symbol": "PARK7"
+  },
+  "GBA": {
+   "id": "ENSG00000177628",
+   "approved_symbol": "GBA1"
+  },
+  "TREM2": {
+   "id": "ENSG00000095970",
+   "approved_symbol": "TREM2"
+  },
+  "SOD1": {
+   "id": "ENSG00000142168",
+   "approved_symbol": "SOD1"
+  },
+  "F10": {
+   "id": "ENSG00000126218",
+   "approved_symbol": "F10"
+  },
+  "MS4A1": {
+   "id": "ENSG00000156738",
+   "approved_symbol": "MS4A1"
+  },
+  "IL6R": {
+   "id": "ENSG00000160712",
+   "approved_symbol": "IL6R"
+  },
+  "TNF": {
+   "id": "ENSG00000232810",
+   "approved_symbol": "TNF"
+  },
+  "F2": {
+   "id": "ENSG00000180210",
+   "approved_symbol": "F2"
+  }
+ }
+}

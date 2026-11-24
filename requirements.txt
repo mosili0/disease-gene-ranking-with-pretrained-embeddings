@@ -1,0 +1,15 @@
+# Python 3.10+; standard pip installs resolve all transitive dependencies.
+# Numerical/NLP package versions used for the checked run are pinned below.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+transformers==5.20.2
+tokenizers==0.23.3
+regex==2026.9.29
+huggingface_hub==2.0.0
+safetensors==0.8.0
+# The original machine uses a development Torch build (see results/environment.json).
+# Portable installs use an available release; re-running may differ slightly numerically.
+torch>=2.6,<3
+tzdata>=2025.1; sys_platform == "win32"

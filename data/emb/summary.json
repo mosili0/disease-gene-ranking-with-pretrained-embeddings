@@ -1,0 +1,10 @@
+{
+ "esm": {
+  "n_genes": 81,
+  "dim": 320
+ },
+ "biobert": {
+  "n_genes": 81,
+  "dim": 768
+ }
+}

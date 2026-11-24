@@ -1,0 +1,5460 @@
+{
+ "fetch_date": "2026-11-03",
+ "species": 9606,
+ "genes": [
+  "BRCA1",
+  "BRCA2",
+  "ATM",
+  "CHEK2",
+  "PALB2",
+  "RAD51",
+  "BRIP1",
+  "MSH2",
+  "MLH1",
+  "RAD51C",
+  "FANCD2",
+  "TP53",
+  "RB1",
+  "CDKN2A",
+  "CCND1",
+  "CDK4",
+  "CDK6",
+  "MYC",
+  "BCL2",
+  "APC",
+  "CDH1",
+  "EGFR",
+  "ERBB2",
+  "KIT",
+  "PDGFRA",
+  "FLT3",
+  "RET",
+  "ALK",
+  "MET",
+  "FGFR2",
+  "VEGFA",
+  "KDR",
+  "ROS1",
+  "KRAS",
+  "HRAS",
+  "NRAS",
+  "BRAF",
+  "RAF1",
+  "MAP2K1",
+  "MAPK1",
+  "PIK3CA",
+  "AKT1",
+  "MTOR",
+  "ABL1",
+  "SRC",
+  "JAK1",
+  "JAK2",
+  "BTK",
+  "SYK",
+  "HMGCR",
+  "FDPS",
+  "PTGS1",
+  "PTGS2",
+  "VKORC1",
+  "CYP2C9",
+  "CYP2D6",
+  "ACHE",
+  "ATP4A",
+  "SLC5A2",
+  "SLC6A4",
+  "DRD2",
+  "HTR2A",
+  "ADRB2",
+  "APP",
+  "PSEN1",
+  "PSEN2",
+  "APOE",
+  "MAPT",
+  "SNCA",
+  "LRRK2",
+  "PRKN",
+  "PINK1",
+  "PARK7",
+  "GBA",
+  "TREM2",
+  "SOD1",
+  "F10",
+  "MS4A1",
+  "IL6R",
+  "TNF",
+  "F2"
+ ],
+ "edges": [
+  {
+   "a": "MAPK1",
+   "b": "KIT",
+   "score": 0.428
+  },
+  {
+   "a": "MAPK1",
+   "b": "CDH1",
+   "score": 0.449
+  },
+  {
+   "a": "MAPK1",
+   "b": "CDK4",
+   "score": 0.479
+  },
+  {
+   "a": "MAPK1",
+   "b": "ALK",
+   "score": 0.5
+  },
+  {
+   "a": "MAPK1",
+   "b": "FGFR2",
+   "score": 0.501
+  },
+  {
+   "a": "MAPK1",
+   "b": "PTGS2",
+   "score": 0.532
+  },
+  {
+   "a": "MAPK1",
+   "b": "LRRK2",
+   "score": 0.539
+  },
+  {
+   "a": "MAPK1",
+   "b": "IL6R",
+   "score": 0.542
+  },
+  {
+   "a": "MAPK1",
+   "b": "KDR",
+   "score": 0.544
+  },
+  {
+   "a": "MAPK1",
+   "b": "JAK1",
+   "score": 0.622
+  },
+  {
+   "a": "MAPK1",
+   "b": "PRKN",
+   "score": 0.627
+  },
+  {
+   "a": "MAPK1",
+   "b": "BRCA1",
+   "score": 0.64
+  },
+  {
+   "a": "MAPK1",
+   "b": "RET",
+   "score": 0.653
+  },
+  {
+   "a": "MAPK1",
+   "b": "ATM",
+   "score": 0.673
+  },
+  {
+   "a": "MAPK1",
+   "b": "APP",
+   "score": 0.7
+  },
+  {
+   "a": "MAPK1",
+   "b": "CDKN2A",
+   "score": 0.724
+  },
+  {
+   "a": "MAPK1",
+   "b": "TNF",
+   "score": 0.746
+  },
+  {
+   "a": "MAPK1",
+   "b": "CCND1",
+   "score": 0.766
+  },
+  {
+   "a": "MAPK1",
+   "b": "EGFR",
+   "score": 0.796
+  },
+  {
+   "a": "MAPK1",
+   "b": "PIK3CA",
+   "score": 0.815
+  },
+  {
+   "a": "MAPK1",
+   "b": "MTOR",
+   "score": 0.828
+  },
+  {
+   "a": "MAPK1",
+   "b": "SNCA",
+   "score": 0.852
+  },
+  {
+   "a": "MAPK1",
+   "b": "SRC",
+   "score": 0.853
+  },
+  {
+   "a": "MAPK1",
+   "b": "CHEK2",
+   "score": 0.88
+  },
+  {
+   "a": "MAPK1",
+   "b": "NRAS",
+   "score": 0.958
+  },
+  {
+   "a": "MAPK1",
+   "b": "HRAS",
+   "score": 0.96
+  },
+  {
+   "a": "MAPK1",
+   "b": "JAK2",
+   "score": 0.964
+  },
+  {
+   "a": "MAPK1",
+   "b": "AKT1",
+   "score": 0.971
+  },
+  {
+   "a": "MAPK1",
+   "b": "BRAF",
+   "score": 0.978
+  },
+  {
+   "a": "MAPK1",
+   "b": "BCL2",
+   "score": 0.98
+  },
+  {
+   "a": "MAPK1",
+   "b": "MAPT",
+   "score": 0.986
+  },
+  {
+   "a": "MAPK1",
+   "b": "KRAS",
+   "score": 0.991
+  },
+  {
+   "a": "MAPK1",
+   "b": "MYC",
+   "score": 0.996
+  },
+  {
+   "a": "MAPK1",
+   "b": "RAF1",
+   "score": 0.998
+  },
+  {
+   "a": "MAPK1",
+   "b": "TP53",
+   "score": 0.999
+  },
+  {
+   "a": "MAPK1",
+   "b": "MAP2K1",
+   "score": 0.999
+  },
+  {
+   "a": "CCND1",
+   "b": "MSH2",
+   "score": 0.4
+  },
+  {
+   "a": "CCND1",
+   "b": "FLT3",
+   "score": 0.414
+  },
+  {
+   "a": "CCND1",
+   "b": "APP",
+   "score": 0.415
+  },
+  {
+   "a": "CCND1",
+   "b": "MLH1",
+   "score": 0.429
+  },
+  {
+   "a": "CCND1",
+   "b": "BTK",
+   "score": 0.456
+  },
+  {
+   "a": "CCND1",
+   "b": "RET",
+   "score": 0.473
+  },
+  {
+   "a": "CCND1",
+   "b": "PDGFRA",
+   "score": 0.51
+  },
+  {
+   "a": "CCND1",
+   "b": "JAK1",
+   "score": 0.518
+  },
+  {
+   "a": "CCND1",
+   "b": "RAF1",
+   "score": 0.539
+  },
+  {
+   "a": "CCND1",
+   "b": "FGFR2",
+   "score": 0.555
+  },
+  {
+   "a": "CCND1",
+   "b": "ALK",
+   "score": 0.563
+  },
+  {
+   "a": "CCND1",
+   "b": "APC",
+   "score": 0.564
+  },
+  {
+   "a": "CCND1",
+   "b": "PRKN",
+   "score": 0.567
+  },
+  {
+   "a": "CCND1",
+   "b": "KDR",
+   "score": 0.588
+  },
+  {
+   "a": "CCND1",
+   "b": "CHEK2",
+   "score": 0.597
+  },
+  {
+   "a": "CCND1",
+   "b": "KIT",
+   "score": 0.616
+  },
+  {
+   "a": "CCND1",
+   "b": "NRAS",
+   "score": 0.617
+  },
+  {
+   "a": "CCND1",
+   "b": "MAP2K1",
+   "score": 0.627
+  },
+  {
+   "a": "CCND1",
+   "b": "MET",
+   "score": 0.632
+  },
+  {
+   "a": "CCND1",
+   "b": "TNF",
+   "score": 0.669
+  },
+  {
+   "a": "CCND1",
+   "b": "RAD51",
+   "score": 0.681
+  },
+  {
+   "a": "CCND1",
+   "b": "PTGS2",
+   "score": 0.682
+  },
+  {
+   "a": "CCND1",
+   "b": "ATM",
+   "score": 0.688
+  },
+  {
+   "a": "CCND1",
+   "b": "ABL1",
+   "score": 0.726
+  },
+  {
+   "a": "CCND1",
+   "b": "KRAS",
+   "score": 0.731
+  },
+  {
+   "a": "CCND1",
+   "b": "HRAS",
+   "score": 0.738
+  },
+  {
+   "a": "CCND1",
+   "b": "JAK2",
+   "score": 0.776
+  },
+  {
+   "a": "CCND1",
+   "b": "MTOR",
+   "score": 0.787
+  },
+  {
+   "a": "CCND1",
+   "b": "BRAF",
+   "score": 0.825
+  },
+  {
+   "a": "CCND1",
+   "b": "PIK3CA",
+   "score": 0.838
+  },
+  {
+   "a": "CCND1",
+   "b": "EGFR",
+   "score": 0.853
+  },
+  {
+   "a": "CCND1",
+   "b": "CDH1",
+   "score": 0.88
+  },
+  {
+   "a": "CCND1",
+   "b": "SRC",
+   "score": 0.904
+  },
+  {
+   "a": "CCND1",
+   "b": "ERBB2",
+   "score": 0.916
+  },
+  {
+   "a": "CCND1",
+   "b": "BRCA1",
+   "score": 0.923
+  },
+  {
+   "a": "CCND1",
+   "b": "BCL2",
+   "score": 0.926
+  },
+  {
+   "a": "CCND1",
+   "b": "BRCA2",
+   "score": 0.93
+  },
+  {
+   "a": "CCND1",
+   "b": "AKT1",
+   "score": 0.93
+  },
+  {
+   "a": "CCND1",
+   "b": "MYC",
+   "score": 0.985
+  },
+  {
+   "a": "CCND1",
+   "b": "TP53",
+   "score": 0.987
+  },
+  {
+   "a": "CCND1",
+   "b": "CDK4",
+   "score": 0.999
+  },
+  {
+   "a": "CCND1",
+   "b": "CDK6",
+   "score": 0.999
+  },
+  {
+   "a": "CCND1",
+   "b": "RB1",
+   "score": 0.999
+  },
+  {
+   "a": "CCND1",
+   "b": "CDKN2A",
+   "score": 0.999
+  },
+  {
+   "a": "MLH1",
+   "b": "FLT3",
+   "score": 0.4
+  },
+  {
+   "a": "MLH1",
+   "b": "ROS1",
+   "score": 0.402
+  },
+  {
+   "a": "MLH1",
+   "b": "KDR",
+   "score": 0.427
+  },
+  {
+   "a": "MLH1",
+   "b": "JAK2",
+   "score": 0.438
+  },
+  {
+   "a": "MLH1",
+   "b": "APC",
+   "score": 0.451
+  },
+  {
+   "a": "MLH1",
+   "b": "MTOR",
+   "score": 0.46
+  },
+  {
+   "a": "MLH1",
+   "b": "PDGFRA",
+   "score": 0.464
+  },
+  {
+   "a": "MLH1",
+   "b": "MAPT",
+   "score": 0.478
+  },
+  {
+   "a": "MLH1",
+   "b": "KIT",
+   "score": 0.494
+  },
+  {
+   "a": "MLH1",
+   "b": "HRAS",
+   "score": 0.499
+  },
+  {
+   "a": "MLH1",
+   "b": "FGFR2",
+   "score": 0.51
+  },
+  {
+   "a": "MLH1",
+   "b": "ALK",
+   "score": 0.547
+  },
+  {
+   "a": "MLH1",
+   "b": "CDH1",
+   "score": 0.548
+  },
+  {
+   "a": "MLH1",
+   "b": "AKT1",
+   "score": 0.559
+  },
+  {
+   "a": "MLH1",
+   "b": "RET",
+   "score": 0.571
+  },
+  {
+   "a": "MLH1",
+   "b": "ABL1",
+   "score": 0.596
+  },
+  {
+   "a": "MLH1",
+   "b": "EGFR",
+   "score": 0.626
+  },
+  {
+   "a": "MLH1",
+   "b": "ERBB2",
+   "score": 0.655
+  },
+  {
+   "a": "MLH1",
+   "b": "PIK3CA",
+   "score": 0.66
+  },
+  {
+   "a": "MLH1",
+   "b": "NRAS",
+   "score": 0.719
+  },
+  {
+   "a": "MLH1",
+   "b": "CDK4",
+   "score": 0.747
+  },
+  {
+   "a": "MLH1",
+   "b": "PALB2",
+   "score": 0.777
+  },
+  {
+   "a": "MLH1",
+   "b": "MYC",
+   "score": 0.777
+  },
+  {
+   "a": "MLH1",
+   "b": "RAD51C",
+   "score": 0.822
+  },
+  {
+   "a": "MLH1",
+   "b": "CDKN2A",
+   "score": 0.842
+  },
+  {
+   "a": "MLH1",
+   "b": "CHEK2",
+   "score": 0.847
+  },
+  {
+   "a": "MLH1",
+   "b": "KRAS",
+   "score": 0.86
+  },
+  {
+   "a": "MLH1",
+   "b": "BRAF",
+   "score": 0.882
+  },
+  {
+   "a": "MLH1",
+   "b": "RAD51",
+   "score": 0.902
+  },
+  {
+   "a": "MLH1",
+   "b": "FANCD2",
+   "score": 0.943
+  },
+  {
+   "a": "MLH1",
+   "b": "BRCA2",
+   "score": 0.948
+  },
+  {
+   "a": "MLH1",
+   "b": "ATM",
+   "score": 0.971
+  },
+  {
+   "a": "MLH1",
+   "b": "TP53",
+   "score": 0.986
+  },
+  {
+   "a": "MLH1",
+   "b": "MSH2",
+   "score": 0.999
+  },
+  {
+   "a": "MLH1",
+   "b": "BRIP1",
+   "score": 0.999
+  },
+  {
+   "a": "MLH1",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "MSH2",
+   "b": "KIT",
+   "score": 0.42
+  },
+  {
+   "a": "MSH2",
+   "b": "RB1",
+   "score": 0.423
+  },
+  {
+   "a": "MSH2",
+   "b": "MTOR",
+   "score": 0.427
+  },
+  {
+   "a": "MSH2",
+   "b": "RAF1",
+   "score": 0.43
+  },
+  {
+   "a": "MSH2",
+   "b": "CDH1",
+   "score": 0.432
+  },
+  {
+   "a": "MSH2",
+   "b": "ALK",
+   "score": 0.441
+  },
+  {
+   "a": "MSH2",
+   "b": "HRAS",
+   "score": 0.449
+  },
+  {
+   "a": "MSH2",
+   "b": "RET",
+   "score": 0.488
+  },
+  {
+   "a": "MSH2",
+   "b": "CDK4",
+   "score": 0.517
+  },
+  {
+   "a": "MSH2",
+   "b": "NRAS",
+   "score": 0.568
+  },
+  {
+   "a": "MSH2",
+   "b": "PIK3CA",
+   "score": 0.585
+  },
+  {
+   "a": "MSH2",
+   "b": "EGFR",
+   "score": 0.585
+  },
+  {
+   "a": "MSH2",
+   "b": "ERBB2",
+   "score": 0.619
+  },
+  {
+   "a": "MSH2",
+   "b": "CDKN2A",
+   "score": 0.664
+  },
+  {
+   "a": "MSH2",
+   "b": "BRIP1",
+   "score": 0.707
+  },
+  {
+   "a": "MSH2",
+   "b": "BRAF",
+   "score": 0.779
+  },
+  {
+   "a": "MSH2",
+   "b": "PALB2",
+   "score": 0.786
+  },
+  {
+   "a": "MSH2",
+   "b": "LRRK2",
+   "score": 0.817
+  },
+  {
+   "a": "MSH2",
+   "b": "KRAS",
+   "score": 0.824
+  },
+  {
+   "a": "MSH2",
+   "b": "RAD51C",
+   "score": 0.836
+  },
+  {
+   "a": "MSH2",
+   "b": "AKT1",
+   "score": 0.88
+  },
+  {
+   "a": "MSH2",
+   "b": "BRCA2",
+   "score": 0.897
+  },
+  {
+   "a": "MSH2",
+   "b": "FANCD2",
+   "score": 0.914
+  },
+  {
+   "a": "MSH2",
+   "b": "MYC",
+   "score": 0.95
+  },
+  {
+   "a": "MSH2",
+   "b": "ATM",
+   "score": 0.951
+  },
+  {
+   "a": "MSH2",
+   "b": "RAD51",
+   "score": 0.953
+  },
+  {
+   "a": "MSH2",
+   "b": "CHEK2",
+   "score": 0.973
+  },
+  {
+   "a": "MSH2",
+   "b": "BRCA1",
+   "score": 0.997
+  },
+  {
+   "a": "MSH2",
+   "b": "TP53",
+   "score": 0.998
+  },
+  {
+   "a": "FLT3",
+   "b": "BRCA2",
+   "score": 0.402
+  },
+  {
+   "a": "FLT3",
+   "b": "RAD51",
+   "score": 0.418
+  },
+  {
+   "a": "FLT3",
+   "b": "TNF",
+   "score": 0.488
+  },
+  {
+   "a": "FLT3",
+   "b": "ATM",
+   "score": 0.518
+  },
+  {
+   "a": "FLT3",
+   "b": "SRC",
+   "score": 0.556
+  },
+  {
+   "a": "FLT3",
+   "b": "ABL1",
+   "score": 0.562
+  },
+  {
+   "a": "FLT3",
+   "b": "CDKN2A",
+   "score": 0.58
+  },
+  {
+   "a": "FLT3",
+   "b": "MTOR",
+   "score": 0.592
+  },
+  {
+   "a": "FLT3",
+   "b": "BRCA1",
+   "score": 0.613
+  },
+  {
+   "a": "FLT3",
+   "b": "BCL2",
+   "score": 0.619
+  },
+  {
+   "a": "FLT3",
+   "b": "MYC",
+   "score": 0.692
+  },
+  {
+   "a": "FLT3",
+   "b": "TP53",
+   "score": 0.718
+  },
+  {
+   "a": "FLT3",
+   "b": "HRAS",
+   "score": 0.778
+  },
+  {
+   "a": "FLT3",
+   "b": "AKT1",
+   "score": 0.78
+  },
+  {
+   "a": "FLT3",
+   "b": "KRAS",
+   "score": 0.864
+  },
+  {
+   "a": "FLT3",
+   "b": "NRAS",
+   "score": 0.893
+  },
+  {
+   "a": "FLT3",
+   "b": "ERBB2",
+   "score": 0.899
+  },
+  {
+   "a": "FLT3",
+   "b": "SYK",
+   "score": 0.909
+  },
+  {
+   "a": "FLT3",
+   "b": "PIK3CA",
+   "score": 0.984
+  },
+  {
+   "a": "APOE",
+   "b": "EGFR",
+   "score": 0.4
+  },
+  {
+   "a": "APOE",
+   "b": "PDGFRA",
+   "score": 0.401
+  },
+  {
+   "a": "APOE",
+   "b": "SLC5A2",
+   "score": 0.405
+  },
+  {
+   "a": "APOE",
+   "b": "SRC",
+   "score": 0.429
+  },
+  {
+   "a": "APOE",
+   "b": "SLC6A4",
+   "score": 0.435
+  },
+  {
+   "a": "APOE",
+   "b": "PRKN",
+   "score": 0.441
+  },
+  {
+   "a": "APOE",
+   "b": "VKORC1",
+   "score": 0.443
+  },
+  {
+   "a": "APOE",
+   "b": "MYC",
+   "score": 0.449
+  },
+  {
+   "a": "APOE",
+   "b": "F2",
+   "score": 0.453
+  },
+  {
+   "a": "APOE",
+   "b": "PARK7",
+   "score": 0.456
+  },
+  {
+   "a": "APOE",
+   "b": "PINK1",
+   "score": 0.465
+  },
+  {
+   "a": "APOE",
+   "b": "KDR",
+   "score": 0.472
+  },
+  {
+   "a": "APOE",
+   "b": "BCL2",
+   "score": 0.481
+  },
+  {
+   "a": "APOE",
+   "b": "TP53",
+   "score": 0.5
+  },
+  {
+   "a": "APOE",
+   "b": "LRRK2",
+   "score": 0.511
+  },
+  {
+   "a": "APOE",
+   "b": "PTGS2",
+   "score": 0.511
+  },
+  {
+   "a": "APOE",
+   "b": "KIT",
+   "score": 0.529
+  },
+  {
+   "a": "APOE",
+   "b": "PIK3CA",
+   "score": 0.539
+  },
+  {
+   "a": "APOE",
+   "b": "GBA",
+   "score": 0.548
+  },
+  {
+   "a": "APOE",
+   "b": "MTOR",
+   "score": 0.576
+  },
+  {
+   "a": "APOE",
+   "b": "ACHE",
+   "score": 0.622
+  },
+  {
+   "a": "APOE",
+   "b": "AKT1",
+   "score": 0.681
+  },
+  {
+   "a": "APOE",
+   "b": "SOD1",
+   "score": 0.683
+  },
+  {
+   "a": "APOE",
+   "b": "HMGCR",
+   "score": 0.797
+  },
+  {
+   "a": "APOE",
+   "b": "TNF",
+   "score": 0.802
+  },
+  {
+   "a": "APOE",
+   "b": "PSEN2",
+   "score": 0.926
+  },
+  {
+   "a": "APOE",
+   "b": "PSEN1",
+   "score": 0.936
+  },
+  {
+   "a": "APOE",
+   "b": "TREM2",
+   "score": 0.982
+  },
+  {
+   "a": "APOE",
+   "b": "MAPT",
+   "score": 0.998
+  },
+  {
+   "a": "APOE",
+   "b": "APP",
+   "score": 0.999
+  },
+  {
+   "a": "APOE",
+   "b": "SNCA",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "PSEN1",
+   "score": 0.413
+  },
+  {
+   "a": "KRAS",
+   "b": "RAD51",
+   "score": 0.413
+  },
+  {
+   "a": "KRAS",
+   "b": "RB1",
+   "score": 0.444
+  },
+  {
+   "a": "KRAS",
+   "b": "BTK",
+   "score": 0.486
+  },
+  {
+   "a": "KRAS",
+   "b": "PTGS2",
+   "score": 0.497
+  },
+  {
+   "a": "KRAS",
+   "b": "MAPT",
+   "score": 0.53
+  },
+  {
+   "a": "KRAS",
+   "b": "CHEK2",
+   "score": 0.542
+  },
+  {
+   "a": "KRAS",
+   "b": "PALB2",
+   "score": 0.55
+  },
+  {
+   "a": "KRAS",
+   "b": "TNF",
+   "score": 0.577
+  },
+  {
+   "a": "KRAS",
+   "b": "APC",
+   "score": 0.599
+  },
+  {
+   "a": "KRAS",
+   "b": "CDK6",
+   "score": 0.615
+  },
+  {
+   "a": "KRAS",
+   "b": "KDR",
+   "score": 0.622
+  },
+  {
+   "a": "KRAS",
+   "b": "ABL1",
+   "score": 0.655
+  },
+  {
+   "a": "KRAS",
+   "b": "CDH1",
+   "score": 0.698
+  },
+  {
+   "a": "KRAS",
+   "b": "BRCA2",
+   "score": 0.724
+  },
+  {
+   "a": "KRAS",
+   "b": "BRCA1",
+   "score": 0.741
+  },
+  {
+   "a": "KRAS",
+   "b": "ATM",
+   "score": 0.754
+  },
+  {
+   "a": "KRAS",
+   "b": "JAK1",
+   "score": 0.761
+  },
+  {
+   "a": "KRAS",
+   "b": "CDK4",
+   "score": 0.773
+  },
+  {
+   "a": "KRAS",
+   "b": "BCL2",
+   "score": 0.815
+  },
+  {
+   "a": "KRAS",
+   "b": "JAK2",
+   "score": 0.828
+  },
+  {
+   "a": "KRAS",
+   "b": "ROS1",
+   "score": 0.88
+  },
+  {
+   "a": "KRAS",
+   "b": "MYC",
+   "score": 0.886
+  },
+  {
+   "a": "KRAS",
+   "b": "AKT1",
+   "score": 0.902
+  },
+  {
+   "a": "KRAS",
+   "b": "SYK",
+   "score": 0.928
+  },
+  {
+   "a": "KRAS",
+   "b": "TP53",
+   "score": 0.954
+  },
+  {
+   "a": "KRAS",
+   "b": "MTOR",
+   "score": 0.962
+  },
+  {
+   "a": "KRAS",
+   "b": "ERBB2",
+   "score": 0.964
+  },
+  {
+   "a": "KRAS",
+   "b": "PDGFRA",
+   "score": 0.966
+  },
+  {
+   "a": "KRAS",
+   "b": "MET",
+   "score": 0.968
+  },
+  {
+   "a": "KRAS",
+   "b": "FGFR2",
+   "score": 0.972
+  },
+  {
+   "a": "KRAS",
+   "b": "KIT",
+   "score": 0.974
+  },
+  {
+   "a": "KRAS",
+   "b": "RET",
+   "score": 0.98
+  },
+  {
+   "a": "KRAS",
+   "b": "ALK",
+   "score": 0.99
+  },
+  {
+   "a": "KRAS",
+   "b": "CDKN2A",
+   "score": 0.991
+  },
+  {
+   "a": "KRAS",
+   "b": "SRC",
+   "score": 0.993
+  },
+  {
+   "a": "KRAS",
+   "b": "MAP2K1",
+   "score": 0.997
+  },
+  {
+   "a": "KRAS",
+   "b": "PIK3CA",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "EGFR",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "NRAS",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "RAF1",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "HRAS",
+   "score": 0.999
+  },
+  {
+   "a": "KRAS",
+   "b": "BRAF",
+   "score": 0.999
+  },
+  {
+   "a": "PDGFRA",
+   "b": "BCL2",
+   "score": 0.408
+  },
+  {
+   "a": "PDGFRA",
+   "b": "BRCA2",
+   "score": 0.418
+  },
+  {
+   "a": "PDGFRA",
+   "b": "TNF",
+   "score": 0.446
+  },
+  {
+   "a": "PDGFRA",
+   "b": "CDH1",
+   "score": 0.469
+  },
+  {
+   "a": "PDGFRA",
+   "b": "ATM",
+   "score": 0.517
+  },
+  {
+   "a": "PDGFRA",
+   "b": "BRCA1",
+   "score": 0.548
+  },
+  {
+   "a": "PDGFRA",
+   "b": "KIT",
+   "score": 0.57
+  },
+  {
+   "a": "PDGFRA",
+   "b": "AKT1",
+   "score": 0.574
+  },
+  {
+   "a": "PDGFRA",
+   "b": "MYC",
+   "score": 0.643
+  },
+  {
+   "a": "PDGFRA",
+   "b": "MTOR",
+   "score": 0.664
+  },
+  {
+   "a": "PDGFRA",
+   "b": "CDKN2A",
+   "score": 0.737
+  },
+  {
+   "a": "PDGFRA",
+   "b": "TP53",
+   "score": 0.761
+  },
+  {
+   "a": "PDGFRA",
+   "b": "JAK1",
+   "score": 0.917
+  },
+  {
+   "a": "PDGFRA",
+   "b": "JAK2",
+   "score": 0.925
+  },
+  {
+   "a": "PDGFRA",
+   "b": "ERBB2",
+   "score": 0.95
+  },
+  {
+   "a": "PDGFRA",
+   "b": "HRAS",
+   "score": 0.958
+  },
+  {
+   "a": "PDGFRA",
+   "b": "SRC",
+   "score": 0.965
+  },
+  {
+   "a": "PDGFRA",
+   "b": "NRAS",
+   "score": 0.966
+  },
+  {
+   "a": "PDGFRA",
+   "b": "PIK3CA",
+   "score": 0.983
+  },
+  {
+   "a": "PDGFRA",
+   "b": "EGFR",
+   "score": 0.995
+  },
+  {
+   "a": "APC",
+   "b": "EGFR",
+   "score": 0.403
+  },
+  {
+   "a": "APC",
+   "b": "MTOR",
+   "score": 0.407
+  },
+  {
+   "a": "APC",
+   "b": "PIK3CA",
+   "score": 0.542
+  },
+  {
+   "a": "APC",
+   "b": "BRAF",
+   "score": 0.581
+  },
+  {
+   "a": "APC",
+   "b": "MYC",
+   "score": 0.723
+  },
+  {
+   "a": "APC",
+   "b": "TP53",
+   "score": 0.726
+  },
+  {
+   "a": "APC",
+   "b": "AKT1",
+   "score": 0.728
+  },
+  {
+   "a": "APC",
+   "b": "PTGS2",
+   "score": 0.832
+  },
+  {
+   "a": "APC",
+   "b": "LRRK2",
+   "score": 0.905
+  },
+  {
+   "a": "APC",
+   "b": "CDH1",
+   "score": 0.947
+  },
+  {
+   "a": "CDK4",
+   "b": "EGFR",
+   "score": 0.419
+  },
+  {
+   "a": "CDK4",
+   "b": "BRAF",
+   "score": 0.431
+  },
+  {
+   "a": "CDK4",
+   "b": "APP",
+   "score": 0.451
+  },
+  {
+   "a": "CDK4",
+   "b": "TNF",
+   "score": 0.473
+  },
+  {
+   "a": "CDK4",
+   "b": "PALB2",
+   "score": 0.487
+  },
+  {
+   "a": "CDK4",
+   "b": "LRRK2",
+   "score": 0.493
+  },
+  {
+   "a": "CDK4",
+   "b": "JAK2",
+   "score": 0.531
+  },
+  {
+   "a": "CDK4",
+   "b": "SRC",
+   "score": 0.541
+  },
+  {
+   "a": "CDK4",
+   "b": "ABL1",
+   "score": 0.551
+  },
+  {
+   "a": "CDK4",
+   "b": "SOD1",
+   "score": 0.572
+  },
+  {
+   "a": "CDK4",
+   "b": "ERBB2",
+   "score": 0.665
+  },
+  {
+   "a": "CDK4",
+   "b": "RAD51C",
+   "score": 0.671
+  },
+  {
+   "a": "CDK4",
+   "b": "AKT1",
+   "score": 0.692
+  },
+  {
+   "a": "CDK4",
+   "b": "HRAS",
+   "score": 0.713
+  },
+  {
+   "a": "CDK4",
+   "b": "CHEK2",
+   "score": 0.714
+  },
+  {
+   "a": "CDK4",
+   "b": "RAF1",
+   "score": 0.733
+  },
+  {
+   "a": "CDK4",
+   "b": "MTOR",
+   "score": 0.759
+  },
+  {
+   "a": "CDK4",
+   "b": "PIK3CA",
+   "score": 0.766
+  },
+  {
+   "a": "CDK4",
+   "b": "CDH1",
+   "score": 0.769
+  },
+  {
+   "a": "CDK4",
+   "b": "BCL2",
+   "score": 0.812
+  },
+  {
+   "a": "CDK4",
+   "b": "NRAS",
+   "score": 0.863
+  },
+  {
+   "a": "CDK4",
+   "b": "RAD51",
+   "score": 0.902
+  },
+  {
+   "a": "CDK4",
+   "b": "BRCA2",
+   "score": 0.92
+  },
+  {
+   "a": "CDK4",
+   "b": "ATM",
+   "score": 0.931
+  },
+  {
+   "a": "CDK4",
+   "b": "MYC",
+   "score": 0.989
+  },
+  {
+   "a": "CDK4",
+   "b": "BRCA1",
+   "score": 0.994
+  },
+  {
+   "a": "CDK4",
+   "b": "TP53",
+   "score": 0.996
+  },
+  {
+   "a": "CDK4",
+   "b": "CDK6",
+   "score": 0.999
+  },
+  {
+   "a": "CDK4",
+   "b": "RB1",
+   "score": 0.999
+  },
+  {
+   "a": "CDK4",
+   "b": "CDKN2A",
+   "score": 0.999
+  },
+  {
+   "a": "BRIP1",
+   "b": "CHEK2",
+   "score": 0.624
+  },
+  {
+   "a": "BRIP1",
+   "b": "TP53",
+   "score": 0.637
+  },
+  {
+   "a": "BRIP1",
+   "b": "RAD51",
+   "score": 0.891
+  },
+  {
+   "a": "BRIP1",
+   "b": "ATM",
+   "score": 0.925
+  },
+  {
+   "a": "BRIP1",
+   "b": "RAD51C",
+   "score": 0.93
+  },
+  {
+   "a": "BRIP1",
+   "b": "FANCD2",
+   "score": 0.991
+  },
+  {
+   "a": "BRIP1",
+   "b": "PALB2",
+   "score": 0.996
+  },
+  {
+   "a": "BRIP1",
+   "b": "BRCA2",
+   "score": 0.997
+  },
+  {
+   "a": "BRIP1",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "CYP2C9",
+   "b": "SLC6A4",
+   "score": 0.434
+  },
+  {
+   "a": "CYP2C9",
+   "b": "HMGCR",
+   "score": 0.478
+  },
+  {
+   "a": "CYP2C9",
+   "b": "F2",
+   "score": 0.58
+  },
+  {
+   "a": "CYP2C9",
+   "b": "ATP4A",
+   "score": 0.631
+  },
+  {
+   "a": "CYP2C9",
+   "b": "CYP2D6",
+   "score": 0.774
+  },
+  {
+   "a": "CYP2C9",
+   "b": "PTGS1",
+   "score": 0.932
+  },
+  {
+   "a": "CYP2C9",
+   "b": "PTGS2",
+   "score": 0.933
+  },
+  {
+   "a": "CYP2C9",
+   "b": "VKORC1",
+   "score": 0.982
+  },
+  {
+   "a": "PALB2",
+   "b": "MYC",
+   "score": 0.409
+  },
+  {
+   "a": "PALB2",
+   "b": "EGFR",
+   "score": 0.42
+  },
+  {
+   "a": "PALB2",
+   "b": "RET",
+   "score": 0.437
+  },
+  {
+   "a": "PALB2",
+   "b": "BRAF",
+   "score": 0.455
+  },
+  {
+   "a": "PALB2",
+   "b": "PIK3CA",
+   "score": 0.506
+  },
+  {
+   "a": "PALB2",
+   "b": "ERBB2",
+   "score": 0.606
+  },
+  {
+   "a": "PALB2",
+   "b": "CDKN2A",
+   "score": 0.661
+  },
+  {
+   "a": "PALB2",
+   "b": "TP53",
+   "score": 0.773
+  },
+  {
+   "a": "PALB2",
+   "b": "CHEK2",
+   "score": 0.922
+  },
+  {
+   "a": "PALB2",
+   "b": "ATM",
+   "score": 0.988
+  },
+  {
+   "a": "PALB2",
+   "b": "FANCD2",
+   "score": 0.99
+  },
+  {
+   "a": "PALB2",
+   "b": "RAD51C",
+   "score": 0.996
+  },
+  {
+   "a": "PALB2",
+   "b": "BRCA2",
+   "score": 0.999
+  },
+  {
+   "a": "PALB2",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "PALB2",
+   "b": "RAD51",
+   "score": 0.999
+  },
+  {
+   "a": "SLC6A4",
+   "b": "ADRB2",
+   "score": 0.431
+  },
+  {
+   "a": "SLC6A4",
+   "b": "ACHE",
+   "score": 0.433
+  },
+  {
+   "a": "SLC6A4",
+   "b": "SRC",
+   "score": 0.433
+  },
+  {
+   "a": "SLC6A4",
+   "b": "TNF",
+   "score": 0.514
+  },
+  {
+   "a": "SLC6A4",
+   "b": "CYP2D6",
+   "score": 0.62
+  },
+  {
+   "a": "SLC6A4",
+   "b": "SNCA",
+   "score": 0.867
+  },
+  {
+   "a": "SLC6A4",
+   "b": "DRD2",
+   "score": 0.895
+  },
+  {
+   "a": "SLC6A4",
+   "b": "HTR2A",
+   "score": 0.93
+  },
+  {
+   "a": "CDH1",
+   "b": "NRAS",
+   "score": 0.42
+  },
+  {
+   "a": "CDH1",
+   "b": "ALK",
+   "score": 0.436
+  },
+  {
+   "a": "CDH1",
+   "b": "ATM",
+   "score": 0.47
+  },
+  {
+   "a": "CDH1",
+   "b": "BRCA2",
+   "score": 0.47
+  },
+  {
+   "a": "CDH1",
+   "b": "FGFR2",
+   "score": 0.488
+  },
+  {
+   "a": "CDH1",
+   "b": "HRAS",
+   "score": 0.507
+  },
+  {
+   "a": "CDH1",
+   "b": "MAP2K1",
+   "score": 0.526
+  },
+  {
+   "a": "CDH1",
+   "b": "JAK2",
+   "score": 0.533
+  },
+  {
+   "a": "CDH1",
+   "b": "PTGS2",
+   "score": 0.569
+  },
+  {
+   "a": "CDH1",
+   "b": "KDR",
+   "score": 0.57
+  },
+  {
+   "a": "CDH1",
+   "b": "KIT",
+   "score": 0.57
+  },
+  {
+   "a": "CDH1",
+   "b": "BRAF",
+   "score": 0.582
+  },
+  {
+   "a": "CDH1",
+   "b": "RB1",
+   "score": 0.592
+  },
+  {
+   "a": "CDH1",
+   "b": "TNF",
+   "score": 0.663
+  },
+  {
+   "a": "CDH1",
+   "b": "BRCA1",
+   "score": 0.697
+  },
+  {
+   "a": "CDH1",
+   "b": "CDKN2A",
+   "score": 0.706
+  },
+  {
+   "a": "CDH1",
+   "b": "BCL2",
+   "score": 0.72
+  },
+  {
+   "a": "CDH1",
+   "b": "MTOR",
+   "score": 0.723
+  },
+  {
+   "a": "CDH1",
+   "b": "CDK6",
+   "score": 0.734
+  },
+  {
+   "a": "CDH1",
+   "b": "PIK3CA",
+   "score": 0.775
+  },
+  {
+   "a": "CDH1",
+   "b": "ERBB2",
+   "score": 0.79
+  },
+  {
+   "a": "CDH1",
+   "b": "TP53",
+   "score": 0.843
+  },
+  {
+   "a": "CDH1",
+   "b": "AKT1",
+   "score": 0.873
+  },
+  {
+   "a": "CDH1",
+   "b": "MYC",
+   "score": 0.89
+  },
+  {
+   "a": "CDH1",
+   "b": "MET",
+   "score": 0.931
+  },
+  {
+   "a": "CDH1",
+   "b": "PSEN1",
+   "score": 0.997
+  },
+  {
+   "a": "CDH1",
+   "b": "SRC",
+   "score": 0.997
+  },
+  {
+   "a": "CDH1",
+   "b": "EGFR",
+   "score": 0.999
+  },
+  {
+   "a": "ATP4A",
+   "b": "PTGS1",
+   "score": 0.4
+  },
+  {
+   "a": "ATP4A",
+   "b": "VKORC1",
+   "score": 0.408
+  },
+  {
+   "a": "ATP4A",
+   "b": "MTOR",
+   "score": 0.476
+  },
+  {
+   "a": "ATP4A",
+   "b": "HMGCR",
+   "score": 0.479
+  },
+  {
+   "a": "ATP4A",
+   "b": "TNF",
+   "score": 0.551
+  },
+  {
+   "a": "ATP4A",
+   "b": "PTGS2",
+   "score": 0.57
+  },
+  {
+   "a": "ATP4A",
+   "b": "F2",
+   "score": 0.586
+  },
+  {
+   "a": "ATP4A",
+   "b": "CYP2D6",
+   "score": 0.706
+  },
+  {
+   "a": "KDR",
+   "b": "HMGCR",
+   "score": 0.4
+  },
+  {
+   "a": "KDR",
+   "b": "BRCA1",
+   "score": 0.411
+  },
+  {
+   "a": "KDR",
+   "b": "ERBB2",
+   "score": 0.419
+  },
+  {
+   "a": "KDR",
+   "b": "KIT",
+   "score": 0.446
+  },
+  {
+   "a": "KDR",
+   "b": "EGFR",
+   "score": 0.453
+  },
+  {
+   "a": "KDR",
+   "b": "SNCA",
+   "score": 0.462
+  },
+  {
+   "a": "KDR",
+   "b": "BRAF",
+   "score": 0.463
+  },
+  {
+   "a": "KDR",
+   "b": "ATM",
+   "score": 0.482
+  },
+  {
+   "a": "KDR",
+   "b": "PTGS2",
+   "score": 0.509
+  },
+  {
+   "a": "KDR",
+   "b": "HRAS",
+   "score": 0.522
+  },
+  {
+   "a": "KDR",
+   "b": "NRAS",
+   "score": 0.531
+  },
+  {
+   "a": "KDR",
+   "b": "CDKN2A",
+   "score": 0.545
+  },
+  {
+   "a": "KDR",
+   "b": "MYC",
+   "score": 0.57
+  },
+  {
+   "a": "KDR",
+   "b": "BCL2",
+   "score": 0.597
+  },
+  {
+   "a": "KDR",
+   "b": "APP",
+   "score": 0.601
+  },
+  {
+   "a": "KDR",
+   "b": "TNF",
+   "score": 0.63
+  },
+  {
+   "a": "KDR",
+   "b": "MTOR",
+   "score": 0.689
+  },
+  {
+   "a": "KDR",
+   "b": "MET",
+   "score": 0.755
+  },
+  {
+   "a": "KDR",
+   "b": "AKT1",
+   "score": 0.847
+  },
+  {
+   "a": "KDR",
+   "b": "TP53",
+   "score": 0.907
+  },
+  {
+   "a": "KDR",
+   "b": "JAK1",
+   "score": 0.917
+  },
+  {
+   "a": "KDR",
+   "b": "JAK2",
+   "score": 0.923
+  },
+  {
+   "a": "KDR",
+   "b": "PIK3CA",
+   "score": 0.988
+  },
+  {
+   "a": "KDR",
+   "b": "SRC",
+   "score": 0.999
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ADRB2",
+   "score": 0.408
+  },
+  {
+   "a": "PIK3CA",
+   "b": "SNCA",
+   "score": 0.419
+  },
+  {
+   "a": "PIK3CA",
+   "b": "PTGS1",
+   "score": 0.424
+  },
+  {
+   "a": "PIK3CA",
+   "b": "SOD1",
+   "score": 0.43
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ATM",
+   "score": 0.457
+  },
+  {
+   "a": "PIK3CA",
+   "b": "PINK1",
+   "score": 0.459
+  },
+  {
+   "a": "PIK3CA",
+   "b": "HMGCR",
+   "score": 0.47
+  },
+  {
+   "a": "PIK3CA",
+   "b": "IL6R",
+   "score": 0.501
+  },
+  {
+   "a": "PIK3CA",
+   "b": "RAD51",
+   "score": 0.512
+  },
+  {
+   "a": "PIK3CA",
+   "b": "APP",
+   "score": 0.548
+  },
+  {
+   "a": "PIK3CA",
+   "b": "PRKN",
+   "score": 0.561
+  },
+  {
+   "a": "PIK3CA",
+   "b": "MAPT",
+   "score": 0.564
+  },
+  {
+   "a": "PIK3CA",
+   "b": "CHEK2",
+   "score": 0.58
+  },
+  {
+   "a": "PIK3CA",
+   "b": "RB1",
+   "score": 0.605
+  },
+  {
+   "a": "PIK3CA",
+   "b": "TREM2",
+   "score": 0.671
+  },
+  {
+   "a": "PIK3CA",
+   "b": "CDK6",
+   "score": 0.686
+  },
+  {
+   "a": "PIK3CA",
+   "b": "BRCA2",
+   "score": 0.71
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ROS1",
+   "score": 0.716
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ABL1",
+   "score": 0.716
+  },
+  {
+   "a": "PIK3CA",
+   "b": "BRCA1",
+   "score": 0.722
+  },
+  {
+   "a": "PIK3CA",
+   "b": "PTGS2",
+   "score": 0.725
+  },
+  {
+   "a": "PIK3CA",
+   "b": "CDKN2A",
+   "score": 0.775
+  },
+  {
+   "a": "PIK3CA",
+   "b": "MAP2K1",
+   "score": 0.809
+  },
+  {
+   "a": "PIK3CA",
+   "b": "RET",
+   "score": 0.865
+  },
+  {
+   "a": "PIK3CA",
+   "b": "MYC",
+   "score": 0.877
+  },
+  {
+   "a": "PIK3CA",
+   "b": "BCL2",
+   "score": 0.884
+  },
+  {
+   "a": "PIK3CA",
+   "b": "FGFR2",
+   "score": 0.896
+  },
+  {
+   "a": "PIK3CA",
+   "b": "TNF",
+   "score": 0.904
+  },
+  {
+   "a": "PIK3CA",
+   "b": "BRAF",
+   "score": 0.91
+  },
+  {
+   "a": "PIK3CA",
+   "b": "JAK1",
+   "score": 0.965
+  },
+  {
+   "a": "PIK3CA",
+   "b": "RAF1",
+   "score": 0.967
+  },
+  {
+   "a": "PIK3CA",
+   "b": "MET",
+   "score": 0.974
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ALK",
+   "score": 0.975
+  },
+  {
+   "a": "PIK3CA",
+   "b": "SYK",
+   "score": 0.977
+  },
+  {
+   "a": "PIK3CA",
+   "b": "TP53",
+   "score": 0.981
+  },
+  {
+   "a": "PIK3CA",
+   "b": "JAK2",
+   "score": 0.985
+  },
+  {
+   "a": "PIK3CA",
+   "b": "BTK",
+   "score": 0.985
+  },
+  {
+   "a": "PIK3CA",
+   "b": "SRC",
+   "score": 0.992
+  },
+  {
+   "a": "PIK3CA",
+   "b": "MTOR",
+   "score": 0.994
+  },
+  {
+   "a": "PIK3CA",
+   "b": "KIT",
+   "score": 0.995
+  },
+  {
+   "a": "PIK3CA",
+   "b": "NRAS",
+   "score": 0.998
+  },
+  {
+   "a": "PIK3CA",
+   "b": "ERBB2",
+   "score": 0.999
+  },
+  {
+   "a": "PIK3CA",
+   "b": "EGFR",
+   "score": 0.999
+  },
+  {
+   "a": "PIK3CA",
+   "b": "HRAS",
+   "score": 0.999
+  },
+  {
+   "a": "PIK3CA",
+   "b": "AKT1",
+   "score": 0.999
+  },
+  {
+   "a": "CDK6",
+   "b": "EGFR",
+   "score": 0.404
+  },
+  {
+   "a": "CDK6",
+   "b": "MET",
+   "score": 0.407
+  },
+  {
+   "a": "CDK6",
+   "b": "CHEK2",
+   "score": 0.442
+  },
+  {
+   "a": "CDK6",
+   "b": "RAD51",
+   "score": 0.443
+  },
+  {
+   "a": "CDK6",
+   "b": "HRAS",
+   "score": 0.479
+  },
+  {
+   "a": "CDK6",
+   "b": "BRCA2",
+   "score": 0.487
+  },
+  {
+   "a": "CDK6",
+   "b": "LRRK2",
+   "score": 0.503
+  },
+  {
+   "a": "CDK6",
+   "b": "SRC",
+   "score": 0.504
+  },
+  {
+   "a": "CDK6",
+   "b": "ABL1",
+   "score": 0.511
+  },
+  {
+   "a": "CDK6",
+   "b": "JAK2",
+   "score": 0.521
+  },
+  {
+   "a": "CDK6",
+   "b": "BRCA1",
+   "score": 0.524
+  },
+  {
+   "a": "CDK6",
+   "b": "NRAS",
+   "score": 0.545
+  },
+  {
+   "a": "CDK6",
+   "b": "ATM",
+   "score": 0.58
+  },
+  {
+   "a": "CDK6",
+   "b": "MTOR",
+   "score": 0.636
+  },
+  {
+   "a": "CDK6",
+   "b": "AKT1",
+   "score": 0.644
+  },
+  {
+   "a": "CDK6",
+   "b": "BCL2",
+   "score": 0.722
+  },
+  {
+   "a": "CDK6",
+   "b": "MYC",
+   "score": 0.846
+  },
+  {
+   "a": "CDK6",
+   "b": "TP53",
+   "score": 0.944
+  },
+  {
+   "a": "CDK6",
+   "b": "RB1",
+   "score": 0.999
+  },
+  {
+   "a": "CDK6",
+   "b": "CDKN2A",
+   "score": 0.999
+  },
+  {
+   "a": "RB1",
+   "b": "BRCA2",
+   "score": 0.447
+  },
+  {
+   "a": "RB1",
+   "b": "ATM",
+   "score": 0.463
+  },
+  {
+   "a": "RB1",
+   "b": "MAPT",
+   "score": 0.468
+  },
+  {
+   "a": "RB1",
+   "b": "ERBB2",
+   "score": 0.47
+  },
+  {
+   "a": "RB1",
+   "b": "LRRK2",
+   "score": 0.493
+  },
+  {
+   "a": "RB1",
+   "b": "MTOR",
+   "score": 0.513
+  },
+  {
+   "a": "RB1",
+   "b": "BCL2",
+   "score": 0.519
+  },
+  {
+   "a": "RB1",
+   "b": "EGFR",
+   "score": 0.52
+  },
+  {
+   "a": "RB1",
+   "b": "AKT1",
+   "score": 0.585
+  },
+  {
+   "a": "RB1",
+   "b": "CHEK2",
+   "score": 0.716
+  },
+  {
+   "a": "RB1",
+   "b": "CDKN2A",
+   "score": 0.754
+  },
+  {
+   "a": "RB1",
+   "b": "MYC",
+   "score": 0.933
+  },
+  {
+   "a": "RB1",
+   "b": "TP53",
+   "score": 0.969
+  },
+  {
+   "a": "RB1",
+   "b": "BRCA1",
+   "score": 0.985
+  },
+  {
+   "a": "RB1",
+   "b": "ABL1",
+   "score": 0.998
+  },
+  {
+   "a": "RB1",
+   "b": "RAF1",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "ADRB2",
+   "score": 0.44
+  },
+  {
+   "a": "TP53",
+   "b": "MAPT",
+   "score": 0.441
+  },
+  {
+   "a": "TP53",
+   "b": "HMGCR",
+   "score": 0.47
+  },
+  {
+   "a": "TP53",
+   "b": "SNCA",
+   "score": 0.502
+  },
+  {
+   "a": "TP53",
+   "b": "SOD1",
+   "score": 0.504
+  },
+  {
+   "a": "TP53",
+   "b": "GBA",
+   "score": 0.537
+  },
+  {
+   "a": "TP53",
+   "b": "SYK",
+   "score": 0.563
+  },
+  {
+   "a": "TP53",
+   "b": "APP",
+   "score": 0.568
+  },
+  {
+   "a": "TP53",
+   "b": "FGFR2",
+   "score": 0.664
+  },
+  {
+   "a": "TP53",
+   "b": "PINK1",
+   "score": 0.665
+  },
+  {
+   "a": "TP53",
+   "b": "BTK",
+   "score": 0.67
+  },
+  {
+   "a": "TP53",
+   "b": "MAP2K1",
+   "score": 0.675
+  },
+  {
+   "a": "TP53",
+   "b": "RAD51C",
+   "score": 0.677
+  },
+  {
+   "a": "TP53",
+   "b": "RET",
+   "score": 0.716
+  },
+  {
+   "a": "TP53",
+   "b": "MET",
+   "score": 0.731
+  },
+  {
+   "a": "TP53",
+   "b": "ROS1",
+   "score": 0.789
+  },
+  {
+   "a": "TP53",
+   "b": "JAK2",
+   "score": 0.8
+  },
+  {
+   "a": "TP53",
+   "b": "PRKN",
+   "score": 0.834
+  },
+  {
+   "a": "TP53",
+   "b": "RAF1",
+   "score": 0.851
+  },
+  {
+   "a": "TP53",
+   "b": "KIT",
+   "score": 0.852
+  },
+  {
+   "a": "TP53",
+   "b": "TNF",
+   "score": 0.857
+  },
+  {
+   "a": "TP53",
+   "b": "NRAS",
+   "score": 0.861
+  },
+  {
+   "a": "TP53",
+   "b": "SRC",
+   "score": 0.874
+  },
+  {
+   "a": "TP53",
+   "b": "FANCD2",
+   "score": 0.875
+  },
+  {
+   "a": "TP53",
+   "b": "ALK",
+   "score": 0.894
+  },
+  {
+   "a": "TP53",
+   "b": "JAK1",
+   "score": 0.894
+  },
+  {
+   "a": "TP53",
+   "b": "BRAF",
+   "score": 0.915
+  },
+  {
+   "a": "TP53",
+   "b": "HRAS",
+   "score": 0.933
+  },
+  {
+   "a": "TP53",
+   "b": "ERBB2",
+   "score": 0.937
+  },
+  {
+   "a": "TP53",
+   "b": "LRRK2",
+   "score": 0.941
+  },
+  {
+   "a": "TP53",
+   "b": "EGFR",
+   "score": 0.977
+  },
+  {
+   "a": "TP53",
+   "b": "ABL1",
+   "score": 0.979
+  },
+  {
+   "a": "TP53",
+   "b": "MYC",
+   "score": 0.988
+  },
+  {
+   "a": "TP53",
+   "b": "PARK7",
+   "score": 0.99
+  },
+  {
+   "a": "TP53",
+   "b": "MTOR",
+   "score": 0.991
+  },
+  {
+   "a": "TP53",
+   "b": "AKT1",
+   "score": 0.996
+  },
+  {
+   "a": "TP53",
+   "b": "ATM",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "PTGS2",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "BRCA2",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "CHEK2",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "BCL2",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "CDKN2A",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "TP53",
+   "b": "RAD51",
+   "score": 0.999
+  },
+  {
+   "a": "ERBB2",
+   "b": "MAP2K1",
+   "score": 0.403
+  },
+  {
+   "a": "ERBB2",
+   "b": "IL6R",
+   "score": 0.418
+  },
+  {
+   "a": "ERBB2",
+   "b": "RAF1",
+   "score": 0.425
+  },
+  {
+   "a": "ERBB2",
+   "b": "ROS1",
+   "score": 0.45
+  },
+  {
+   "a": "ERBB2",
+   "b": "PRKN",
+   "score": 0.459
+  },
+  {
+   "a": "ERBB2",
+   "b": "RAD51",
+   "score": 0.477
+  },
+  {
+   "a": "ERBB2",
+   "b": "RAD51C",
+   "score": 0.509
+  },
+  {
+   "a": "ERBB2",
+   "b": "CHEK2",
+   "score": 0.521
+  },
+  {
+   "a": "ERBB2",
+   "b": "BRAF",
+   "score": 0.521
+  },
+  {
+   "a": "ERBB2",
+   "b": "ADRB2",
+   "score": 0.598
+  },
+  {
+   "a": "ERBB2",
+   "b": "TNF",
+   "score": 0.625
+  },
+  {
+   "a": "ERBB2",
+   "b": "SYK",
+   "score": 0.631
+  },
+  {
+   "a": "ERBB2",
+   "b": "ATM",
+   "score": 0.701
+  },
+  {
+   "a": "ERBB2",
+   "b": "BCL2",
+   "score": 0.723
+  },
+  {
+   "a": "ERBB2",
+   "b": "CDKN2A",
+   "score": 0.757
+  },
+  {
+   "a": "ERBB2",
+   "b": "PTGS2",
+   "score": 0.765
+  },
+  {
+   "a": "ERBB2",
+   "b": "MTOR",
+   "score": 0.799
+  },
+  {
+   "a": "ERBB2",
+   "b": "AKT1",
+   "score": 0.831
+  },
+  {
+   "a": "ERBB2",
+   "b": "BRCA2",
+   "score": 0.859
+  },
+  {
+   "a": "ERBB2",
+   "b": "MYC",
+   "score": 0.872
+  },
+  {
+   "a": "ERBB2",
+   "b": "NRAS",
+   "score": 0.888
+  },
+  {
+   "a": "ERBB2",
+   "b": "ABL1",
+   "score": 0.89
+  },
+  {
+   "a": "ERBB2",
+   "b": "RET",
+   "score": 0.897
+  },
+  {
+   "a": "ERBB2",
+   "b": "FGFR2",
+   "score": 0.897
+  },
+  {
+   "a": "ERBB2",
+   "b": "TREM2",
+   "score": 0.908
+  },
+  {
+   "a": "ERBB2",
+   "b": "ALK",
+   "score": 0.915
+  },
+  {
+   "a": "ERBB2",
+   "b": "HRAS",
+   "score": 0.918
+  },
+  {
+   "a": "ERBB2",
+   "b": "BRCA1",
+   "score": 0.923
+  },
+  {
+   "a": "ERBB2",
+   "b": "MET",
+   "score": 0.924
+  },
+  {
+   "a": "ERBB2",
+   "b": "JAK1",
+   "score": 0.947
+  },
+  {
+   "a": "ERBB2",
+   "b": "JAK2",
+   "score": 0.977
+  },
+  {
+   "a": "ERBB2",
+   "b": "EGFR",
+   "score": 0.999
+  },
+  {
+   "a": "ERBB2",
+   "b": "SRC",
+   "score": 0.999
+  },
+  {
+   "a": "SOD1",
+   "b": "TREM2",
+   "score": 0.422
+  },
+  {
+   "a": "SOD1",
+   "b": "PSEN2",
+   "score": 0.448
+  },
+  {
+   "a": "SOD1",
+   "b": "RAD51",
+   "score": 0.454
+  },
+  {
+   "a": "SOD1",
+   "b": "LRRK2",
+   "score": 0.494
+  },
+  {
+   "a": "SOD1",
+   "b": "PTGS2",
+   "score": 0.519
+  },
+  {
+   "a": "SOD1",
+   "b": "MTOR",
+   "score": 0.534
+  },
+  {
+   "a": "SOD1",
+   "b": "AKT1",
+   "score": 0.563
+  },
+  {
+   "a": "SOD1",
+   "b": "PSEN1",
+   "score": 0.564
+  },
+  {
+   "a": "SOD1",
+   "b": "TNF",
+   "score": 0.57
+  },
+  {
+   "a": "SOD1",
+   "b": "EGFR",
+   "score": 0.575
+  },
+  {
+   "a": "SOD1",
+   "b": "PRKN",
+   "score": 0.592
+  },
+  {
+   "a": "SOD1",
+   "b": "CHEK2",
+   "score": 0.596
+  },
+  {
+   "a": "SOD1",
+   "b": "PINK1",
+   "score": 0.656
+  },
+  {
+   "a": "SOD1",
+   "b": "APP",
+   "score": 0.679
+  },
+  {
+   "a": "SOD1",
+   "b": "MAPT",
+   "score": 0.787
+  },
+  {
+   "a": "SOD1",
+   "b": "SNCA",
+   "score": 0.885
+  },
+  {
+   "a": "SOD1",
+   "b": "BCL2",
+   "score": 0.98
+  },
+  {
+   "a": "SOD1",
+   "b": "PARK7",
+   "score": 0.996
+  },
+  {
+   "a": "EGFR",
+   "b": "ADRB2",
+   "score": 0.407
+  },
+  {
+   "a": "EGFR",
+   "b": "MAP2K1",
+   "score": 0.425
+  },
+  {
+   "a": "EGFR",
+   "b": "IL6R",
+   "score": 0.448
+  },
+  {
+   "a": "EGFR",
+   "b": "PTGS1",
+   "score": 0.473
+  },
+  {
+   "a": "EGFR",
+   "b": "RAD51",
+   "score": 0.476
+  },
+  {
+   "a": "EGFR",
+   "b": "ROS1",
+   "score": 0.487
+  },
+  {
+   "a": "EGFR",
+   "b": "LRRK2",
+   "score": 0.559
+  },
+  {
+   "a": "EGFR",
+   "b": "ALK",
+   "score": 0.57
+  },
+  {
+   "a": "EGFR",
+   "b": "BRAF",
+   "score": 0.577
+  },
+  {
+   "a": "EGFR",
+   "b": "BRCA2",
+   "score": 0.675
+  },
+  {
+   "a": "EGFR",
+   "b": "FANCD2",
+   "score": 0.688
+  },
+  {
+   "a": "EGFR",
+   "b": "PTGS2",
+   "score": 0.691
+  },
+  {
+   "a": "EGFR",
+   "b": "PRKN",
+   "score": 0.759
+  },
+  {
+   "a": "EGFR",
+   "b": "BCL2",
+   "score": 0.766
+  },
+  {
+   "a": "EGFR",
+   "b": "ATM",
+   "score": 0.779
+  },
+  {
+   "a": "EGFR",
+   "b": "BRCA1",
+   "score": 0.783
+  },
+  {
+   "a": "EGFR",
+   "b": "TNF",
+   "score": 0.793
+  },
+  {
+   "a": "EGFR",
+   "b": "CDKN2A",
+   "score": 0.801
+  },
+  {
+   "a": "EGFR",
+   "b": "SYK",
+   "score": 0.835
+  },
+  {
+   "a": "EGFR",
+   "b": "MTOR",
+   "score": 0.9
+  },
+  {
+   "a": "EGFR",
+   "b": "MYC",
+   "score": 0.919
+  },
+  {
+   "a": "EGFR",
+   "b": "SNCA",
+   "score": 0.932
+  },
+  {
+   "a": "EGFR",
+   "b": "MAPT",
+   "score": 0.936
+  },
+  {
+   "a": "EGFR",
+   "b": "APP",
+   "score": 0.951
+  },
+  {
+   "a": "EGFR",
+   "b": "RET",
+   "score": 0.98
+  },
+  {
+   "a": "EGFR",
+   "b": "JAK1",
+   "score": 0.984
+  },
+  {
+   "a": "EGFR",
+   "b": "RAF1",
+   "score": 0.985
+  },
+  {
+   "a": "EGFR",
+   "b": "AKT1",
+   "score": 0.988
+  },
+  {
+   "a": "EGFR",
+   "b": "NRAS",
+   "score": 0.992
+  },
+  {
+   "a": "EGFR",
+   "b": "ABL1",
+   "score": 0.992
+  },
+  {
+   "a": "EGFR",
+   "b": "HRAS",
+   "score": 0.992
+  },
+  {
+   "a": "EGFR",
+   "b": "JAK2",
+   "score": 0.997
+  },
+  {
+   "a": "EGFR",
+   "b": "MET",
+   "score": 0.999
+  },
+  {
+   "a": "EGFR",
+   "b": "SRC",
+   "score": 0.999
+  },
+  {
+   "a": "ATM",
+   "b": "ROS1",
+   "score": 0.431
+  },
+  {
+   "a": "ATM",
+   "b": "JAK1",
+   "score": 0.442
+  },
+  {
+   "a": "ATM",
+   "b": "MAP2K1",
+   "score": 0.462
+  },
+  {
+   "a": "ATM",
+   "b": "BTK",
+   "score": 0.468
+  },
+  {
+   "a": "ATM",
+   "b": "SRC",
+   "score": 0.508
+  },
+  {
+   "a": "ATM",
+   "b": "MTOR",
+   "score": 0.51
+  },
+  {
+   "a": "ATM",
+   "b": "TNF",
+   "score": 0.512
+  },
+  {
+   "a": "ATM",
+   "b": "JAK2",
+   "score": 0.535
+  },
+  {
+   "a": "ATM",
+   "b": "KIT",
+   "score": 0.547
+  },
+  {
+   "a": "ATM",
+   "b": "FGFR2",
+   "score": 0.547
+  },
+  {
+   "a": "ATM",
+   "b": "RET",
+   "score": 0.569
+  },
+  {
+   "a": "ATM",
+   "b": "ALK",
+   "score": 0.57
+  },
+  {
+   "a": "ATM",
+   "b": "HRAS",
+   "score": 0.581
+  },
+  {
+   "a": "ATM",
+   "b": "PRKN",
+   "score": 0.605
+  },
+  {
+   "a": "ATM",
+   "b": "NRAS",
+   "score": 0.625
+  },
+  {
+   "a": "ATM",
+   "b": "BCL2",
+   "score": 0.749
+  },
+  {
+   "a": "ATM",
+   "b": "BRAF",
+   "score": 0.789
+  },
+  {
+   "a": "ATM",
+   "b": "MYC",
+   "score": 0.812
+  },
+  {
+   "a": "ATM",
+   "b": "CDKN2A",
+   "score": 0.829
+  },
+  {
+   "a": "ATM",
+   "b": "AKT1",
+   "score": 0.843
+  },
+  {
+   "a": "ATM",
+   "b": "RAD51C",
+   "score": 0.925
+  },
+  {
+   "a": "ATM",
+   "b": "FANCD2",
+   "score": 0.997
+  },
+  {
+   "a": "ATM",
+   "b": "BRCA2",
+   "score": 0.997
+  },
+  {
+   "a": "ATM",
+   "b": "RAD51",
+   "score": 0.997
+  },
+  {
+   "a": "ATM",
+   "b": "ABL1",
+   "score": 0.999
+  },
+  {
+   "a": "ATM",
+   "b": "CHEK2",
+   "score": 0.999
+  },
+  {
+   "a": "ATM",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "APP",
+   "b": "RET",
+   "score": 0.402
+  },
+  {
+   "a": "APP",
+   "b": "HMGCR",
+   "score": 0.427
+  },
+  {
+   "a": "APP",
+   "b": "MYC",
+   "score": 0.452
+  },
+  {
+   "a": "APP",
+   "b": "GBA",
+   "score": 0.465
+  },
+  {
+   "a": "APP",
+   "b": "BTK",
+   "score": 0.561
+  },
+  {
+   "a": "APP",
+   "b": "MET",
+   "score": 0.569
+  },
+  {
+   "a": "APP",
+   "b": "BCL2",
+   "score": 0.591
+  },
+  {
+   "a": "APP",
+   "b": "PARK7",
+   "score": 0.593
+  },
+  {
+   "a": "APP",
+   "b": "MTOR",
+   "score": 0.6
+  },
+  {
+   "a": "APP",
+   "b": "PINK1",
+   "score": 0.63
+  },
+  {
+   "a": "APP",
+   "b": "ABL1",
+   "score": 0.646
+  },
+  {
+   "a": "APP",
+   "b": "PTGS2",
+   "score": 0.747
+  },
+  {
+   "a": "APP",
+   "b": "LRRK2",
+   "score": 0.756
+  },
+  {
+   "a": "APP",
+   "b": "AKT1",
+   "score": 0.758
+  },
+  {
+   "a": "APP",
+   "b": "TNF",
+   "score": 0.804
+  },
+  {
+   "a": "APP",
+   "b": "SRC",
+   "score": 0.843
+  },
+  {
+   "a": "APP",
+   "b": "PRKN",
+   "score": 0.908
+  },
+  {
+   "a": "APP",
+   "b": "TREM2",
+   "score": 0.908
+  },
+  {
+   "a": "APP",
+   "b": "PSEN2",
+   "score": 0.974
+  },
+  {
+   "a": "APP",
+   "b": "ACHE",
+   "score": 0.994
+  },
+  {
+   "a": "APP",
+   "b": "PSEN1",
+   "score": 0.999
+  },
+  {
+   "a": "APP",
+   "b": "MAPT",
+   "score": 0.999
+  },
+  {
+   "a": "APP",
+   "b": "SNCA",
+   "score": 0.999
+  },
+  {
+   "a": "FANCD2",
+   "b": "MYC",
+   "score": 0.659
+  },
+  {
+   "a": "FANCD2",
+   "b": "AKT1",
+   "score": 0.747
+  },
+  {
+   "a": "FANCD2",
+   "b": "RAD51C",
+   "score": 0.886
+  },
+  {
+   "a": "FANCD2",
+   "b": "CHEK2",
+   "score": 0.892
+  },
+  {
+   "a": "FANCD2",
+   "b": "RAD51",
+   "score": 0.994
+  },
+  {
+   "a": "FANCD2",
+   "b": "BRCA2",
+   "score": 0.999
+  },
+  {
+   "a": "FANCD2",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "HMGCR",
+   "b": "BCL2",
+   "score": 0.411
+  },
+  {
+   "a": "HMGCR",
+   "b": "PTGS2",
+   "score": 0.435
+  },
+  {
+   "a": "HMGCR",
+   "b": "TNF",
+   "score": 0.557
+  },
+  {
+   "a": "HMGCR",
+   "b": "MTOR",
+   "score": 0.582
+  },
+  {
+   "a": "HMGCR",
+   "b": "AKT1",
+   "score": 0.612
+  },
+  {
+   "a": "HMGCR",
+   "b": "FDPS",
+   "score": 0.966
+  },
+  {
+   "a": "KIT",
+   "b": "ALK",
+   "score": 0.414
+  },
+  {
+   "a": "KIT",
+   "b": "BRAF",
+   "score": 0.428
+  },
+  {
+   "a": "KIT",
+   "b": "PTGS2",
+   "score": 0.436
+  },
+  {
+   "a": "KIT",
+   "b": "ABL1",
+   "score": 0.467
+  },
+  {
+   "a": "KIT",
+   "b": "BRCA2",
+   "score": 0.492
+  },
+  {
+   "a": "KIT",
+   "b": "MAPT",
+   "score": 0.527
+  },
+  {
+   "a": "KIT",
+   "b": "BRCA1",
+   "score": 0.533
+  },
+  {
+   "a": "KIT",
+   "b": "CHEK2",
+   "score": 0.539
+  },
+  {
+   "a": "KIT",
+   "b": "TNF",
+   "score": 0.6
+  },
+  {
+   "a": "KIT",
+   "b": "MYC",
+   "score": 0.665
+  },
+  {
+   "a": "KIT",
+   "b": "CDKN2A",
+   "score": 0.676
+  },
+  {
+   "a": "KIT",
+   "b": "BCL2",
+   "score": 0.685
+  },
+  {
+   "a": "KIT",
+   "b": "MTOR",
+   "score": 0.686
+  },
+  {
+   "a": "KIT",
+   "b": "AKT1",
+   "score": 0.798
+  },
+  {
+   "a": "KIT",
+   "b": "SRC",
+   "score": 0.82
+  },
+  {
+   "a": "KIT",
+   "b": "JAK2",
+   "score": 0.877
+  },
+  {
+   "a": "KIT",
+   "b": "HRAS",
+   "score": 0.961
+  },
+  {
+   "a": "KIT",
+   "b": "NRAS",
+   "score": 0.979
+  },
+  {
+   "a": "LRRK2",
+   "b": "FDPS",
+   "score": 0.456
+  },
+  {
+   "a": "LRRK2",
+   "b": "CYP2D6",
+   "score": 0.477
+  },
+  {
+   "a": "LRRK2",
+   "b": "PSEN2",
+   "score": 0.497
+  },
+  {
+   "a": "LRRK2",
+   "b": "CDKN2A",
+   "score": 0.512
+  },
+  {
+   "a": "LRRK2",
+   "b": "AKT1",
+   "score": 0.531
+  },
+  {
+   "a": "LRRK2",
+   "b": "PTGS2",
+   "score": 0.561
+  },
+  {
+   "a": "LRRK2",
+   "b": "MAP2K1",
+   "score": 0.566
+  },
+  {
+   "a": "LRRK2",
+   "b": "PSEN1",
+   "score": 0.567
+  },
+  {
+   "a": "LRRK2",
+   "b": "BCL2",
+   "score": 0.609
+  },
+  {
+   "a": "LRRK2",
+   "b": "MTOR",
+   "score": 0.655
+  },
+  {
+   "a": "LRRK2",
+   "b": "GBA",
+   "score": 0.928
+  },
+  {
+   "a": "LRRK2",
+   "b": "PINK1",
+   "score": 0.93
+  },
+  {
+   "a": "LRRK2",
+   "b": "PARK7",
+   "score": 0.959
+  },
+  {
+   "a": "LRRK2",
+   "b": "PRKN",
+   "score": 0.97
+  },
+  {
+   "a": "LRRK2",
+   "b": "MAPT",
+   "score": 0.984
+  },
+  {
+   "a": "LRRK2",
+   "b": "SNCA",
+   "score": 0.986
+  },
+  {
+   "a": "MAP2K1",
+   "b": "ALK",
+   "score": 0.403
+  },
+  {
+   "a": "MAP2K1",
+   "b": "AKT1",
+   "score": 0.403
+  },
+  {
+   "a": "MAP2K1",
+   "b": "PTGS2",
+   "score": 0.44
+  },
+  {
+   "a": "MAP2K1",
+   "b": "FGFR2",
+   "score": 0.481
+  },
+  {
+   "a": "MAP2K1",
+   "b": "IL6R",
+   "score": 0.509
+  },
+  {
+   "a": "MAP2K1",
+   "b": "JAK2",
+   "score": 0.555
+  },
+  {
+   "a": "MAP2K1",
+   "b": "JAK1",
+   "score": 0.566
+  },
+  {
+   "a": "MAP2K1",
+   "b": "BCL2",
+   "score": 0.586
+  },
+  {
+   "a": "MAP2K1",
+   "b": "CDKN2A",
+   "score": 0.592
+  },
+  {
+   "a": "MAP2K1",
+   "b": "TNF",
+   "score": 0.669
+  },
+  {
+   "a": "MAP2K1",
+   "b": "SRC",
+   "score": 0.672
+  },
+  {
+   "a": "MAP2K1",
+   "b": "MYC",
+   "score": 0.688
+  },
+  {
+   "a": "MAP2K1",
+   "b": "MTOR",
+   "score": 0.801
+  },
+  {
+   "a": "MAP2K1",
+   "b": "NRAS",
+   "score": 0.982
+  },
+  {
+   "a": "MAP2K1",
+   "b": "HRAS",
+   "score": 0.991
+  },
+  {
+   "a": "MAP2K1",
+   "b": "RAF1",
+   "score": 0.999
+  },
+  {
+   "a": "MAP2K1",
+   "b": "BRAF",
+   "score": 0.999
+  },
+  {
+   "a": "ACHE",
+   "b": "HTR2A",
+   "score": 0.404
+  },
+  {
+   "a": "ACHE",
+   "b": "DRD2",
+   "score": 0.416
+  },
+  {
+   "a": "ACHE",
+   "b": "CYP2D6",
+   "score": 0.417
+  },
+  {
+   "a": "ACHE",
+   "b": "AKT1",
+   "score": 0.492
+  },
+  {
+   "a": "ACHE",
+   "b": "PTGS2",
+   "score": 0.511
+  },
+  {
+   "a": "ACHE",
+   "b": "BCL2",
+   "score": 0.511
+  },
+  {
+   "a": "ACHE",
+   "b": "PSEN2",
+   "score": 0.547
+  },
+  {
+   "a": "ACHE",
+   "b": "TNF",
+   "score": 0.564
+  },
+  {
+   "a": "ACHE",
+   "b": "SNCA",
+   "score": 0.565
+  },
+  {
+   "a": "ACHE",
+   "b": "MAPT",
+   "score": 0.62
+  },
+  {
+   "a": "ACHE",
+   "b": "PSEN1",
+   "score": 0.694
+  },
+  {
+   "a": "ADRB2",
+   "b": "PSEN1",
+   "score": 0.42
+  },
+  {
+   "a": "ADRB2",
+   "b": "PTGS2",
+   "score": 0.439
+  },
+  {
+   "a": "ADRB2",
+   "b": "TNF",
+   "score": 0.522
+  },
+  {
+   "a": "ADRB2",
+   "b": "AKT1",
+   "score": 0.75
+  },
+  {
+   "a": "ADRB2",
+   "b": "SRC",
+   "score": 0.959
+  },
+  {
+   "a": "F2",
+   "b": "RET",
+   "score": 0.486
+  },
+  {
+   "a": "F2",
+   "b": "MAPT",
+   "score": 0.514
+  },
+  {
+   "a": "F2",
+   "b": "BTK",
+   "score": 0.568
+  },
+  {
+   "a": "F2",
+   "b": "JAK2",
+   "score": 0.569
+  },
+  {
+   "a": "F2",
+   "b": "TNF",
+   "score": 0.641
+  },
+  {
+   "a": "F2",
+   "b": "VKORC1",
+   "score": 0.842
+  },
+  {
+   "a": "F2",
+   "b": "F10",
+   "score": 0.994
+  },
+  {
+   "a": "GBA",
+   "b": "PSEN2",
+   "score": 0.4
+  },
+  {
+   "a": "GBA",
+   "b": "PSEN1",
+   "score": 0.471
+  },
+  {
+   "a": "GBA",
+   "b": "CYP2D6",
+   "score": 0.558
+  },
+  {
+   "a": "GBA",
+   "b": "MAPT",
+   "score": 0.664
+  },
+  {
+   "a": "GBA",
+   "b": "PARK7",
+   "score": 0.748
+  },
+  {
+   "a": "GBA",
+   "b": "PINK1",
+   "score": 0.77
+  },
+  {
+   "a": "GBA",
+   "b": "PRKN",
+   "score": 0.899
+  },
+  {
+   "a": "GBA",
+   "b": "SNCA",
+   "score": 0.975
+  },
+  {
+   "a": "MET",
+   "b": "PTGS2",
+   "score": 0.406
+  },
+  {
+   "a": "MET",
+   "b": "BRCA1",
+   "score": 0.41
+  },
+  {
+   "a": "MET",
+   "b": "TNF",
+   "score": 0.465
+  },
+  {
+   "a": "MET",
+   "b": "CDKN2A",
+   "score": 0.52
+  },
+  {
+   "a": "MET",
+   "b": "AKT1",
+   "score": 0.573
+  },
+  {
+   "a": "MET",
+   "b": "BCL2",
+   "score": 0.578
+  },
+  {
+   "a": "MET",
+   "b": "MYC",
+   "score": 0.677
+  },
+  {
+   "a": "MET",
+   "b": "MTOR",
+   "score": 0.706
+  },
+  {
+   "a": "MET",
+   "b": "JAK1",
+   "score": 0.913
+  },
+  {
+   "a": "MET",
+   "b": "JAK2",
+   "score": 0.917
+  },
+  {
+   "a": "MET",
+   "b": "NRAS",
+   "score": 0.952
+  },
+  {
+   "a": "MET",
+   "b": "HRAS",
+   "score": 0.959
+  },
+  {
+   "a": "MET",
+   "b": "SRC",
+   "score": 0.999
+  },
+  {
+   "a": "PSEN1",
+   "b": "MTOR",
+   "score": 0.47
+  },
+  {
+   "a": "PSEN1",
+   "b": "TNF",
+   "score": 0.47
+  },
+  {
+   "a": "PSEN1",
+   "b": "AKT1",
+   "score": 0.501
+  },
+  {
+   "a": "PSEN1",
+   "b": "PARK7",
+   "score": 0.565
+  },
+  {
+   "a": "PSEN1",
+   "b": "PRKN",
+   "score": 0.643
+  },
+  {
+   "a": "PSEN1",
+   "b": "PINK1",
+   "score": 0.646
+  },
+  {
+   "a": "PSEN1",
+   "b": "SNCA",
+   "score": 0.81
+  },
+  {
+   "a": "PSEN1",
+   "b": "BCL2",
+   "score": 0.877
+  },
+  {
+   "a": "PSEN1",
+   "b": "TREM2",
+   "score": 0.895
+  },
+  {
+   "a": "PSEN1",
+   "b": "MAPT",
+   "score": 0.962
+  },
+  {
+   "a": "PSEN1",
+   "b": "PSEN2",
+   "score": 0.999
+  },
+  {
+   "a": "SLC5A2",
+   "b": "TNF",
+   "score": 0.456
+  },
+  {
+   "a": "SLC5A2",
+   "b": "AKT1",
+   "score": 0.467
+  },
+  {
+   "a": "SLC5A2",
+   "b": "MTOR",
+   "score": 0.486
+  },
+  {
+   "a": "RAD51C",
+   "b": "CDKN2A",
+   "score": 0.479
+  },
+  {
+   "a": "RAD51C",
+   "b": "CHEK2",
+   "score": 0.911
+  },
+  {
+   "a": "RAD51C",
+   "b": "BRCA1",
+   "score": 0.97
+  },
+  {
+   "a": "RAD51C",
+   "b": "RAD51",
+   "score": 0.997
+  },
+  {
+   "a": "RAD51C",
+   "b": "BRCA2",
+   "score": 0.998
+  },
+  {
+   "a": "PARK7",
+   "b": "BCL2",
+   "score": 0.406
+  },
+  {
+   "a": "PARK7",
+   "b": "FDPS",
+   "score": 0.421
+  },
+  {
+   "a": "PARK7",
+   "b": "MTOR",
+   "score": 0.446
+  },
+  {
+   "a": "PARK7",
+   "b": "PSEN2",
+   "score": 0.503
+  },
+  {
+   "a": "PARK7",
+   "b": "ABL1",
+   "score": 0.531
+  },
+  {
+   "a": "PARK7",
+   "b": "AKT1",
+   "score": 0.707
+  },
+  {
+   "a": "PARK7",
+   "b": "MAPT",
+   "score": 0.927
+  },
+  {
+   "a": "PARK7",
+   "b": "SNCA",
+   "score": 0.995
+  },
+  {
+   "a": "PARK7",
+   "b": "PINK1",
+   "score": 0.996
+  },
+  {
+   "a": "PARK7",
+   "b": "PRKN",
+   "score": 0.999
+  },
+  {
+   "a": "MAPT",
+   "b": "BRCA1",
+   "score": 0.472
+  },
+  {
+   "a": "MAPT",
+   "b": "JAK1",
+   "score": 0.482
+  },
+  {
+   "a": "MAPT",
+   "b": "TNF",
+   "score": 0.492
+  },
+  {
+   "a": "MAPT",
+   "b": "FDPS",
+   "score": 0.499
+  },
+  {
+   "a": "MAPT",
+   "b": "MTOR",
+   "score": 0.506
+  },
+  {
+   "a": "MAPT",
+   "b": "HRAS",
+   "score": 0.512
+  },
+  {
+   "a": "MAPT",
+   "b": "CHEK2",
+   "score": 0.518
+  },
+  {
+   "a": "MAPT",
+   "b": "SYK",
+   "score": 0.555
+  },
+  {
+   "a": "MAPT",
+   "b": "BCL2",
+   "score": 0.564
+  },
+  {
+   "a": "MAPT",
+   "b": "TREM2",
+   "score": 0.759
+  },
+  {
+   "a": "MAPT",
+   "b": "PINK1",
+   "score": 0.819
+  },
+  {
+   "a": "MAPT",
+   "b": "ABL1",
+   "score": 0.858
+  },
+  {
+   "a": "MAPT",
+   "b": "PSEN2",
+   "score": 0.867
+  },
+  {
+   "a": "MAPT",
+   "b": "PRKN",
+   "score": 0.98
+  },
+  {
+   "a": "MAPT",
+   "b": "AKT1",
+   "score": 0.988
+  },
+  {
+   "a": "MAPT",
+   "b": "SRC",
+   "score": 0.99
+  },
+  {
+   "a": "MAPT",
+   "b": "SNCA",
+   "score": 0.999
+  },
+  {
+   "a": "RET",
+   "b": "BCL2",
+   "score": 0.428
+  },
+  {
+   "a": "RET",
+   "b": "SNCA",
+   "score": 0.49
+  },
+  {
+   "a": "RET",
+   "b": "MYC",
+   "score": 0.52
+  },
+  {
+   "a": "RET",
+   "b": "BRCA1",
+   "score": 0.548
+  },
+  {
+   "a": "RET",
+   "b": "BRCA2",
+   "score": 0.551
+  },
+  {
+   "a": "RET",
+   "b": "BRAF",
+   "score": 0.593
+  },
+  {
+   "a": "RET",
+   "b": "CDKN2A",
+   "score": 0.606
+  },
+  {
+   "a": "RET",
+   "b": "ALK",
+   "score": 0.607
+  },
+  {
+   "a": "RET",
+   "b": "AKT1",
+   "score": 0.62
+  },
+  {
+   "a": "RET",
+   "b": "MTOR",
+   "score": 0.649
+  },
+  {
+   "a": "RET",
+   "b": "SRC",
+   "score": 0.818
+  },
+  {
+   "a": "RET",
+   "b": "HRAS",
+   "score": 0.972
+  },
+  {
+   "a": "RET",
+   "b": "NRAS",
+   "score": 0.976
+  },
+  {
+   "a": "MTOR",
+   "b": "TREM2",
+   "score": 0.418
+  },
+  {
+   "a": "MTOR",
+   "b": "RAD51",
+   "score": 0.453
+  },
+  {
+   "a": "MTOR",
+   "b": "IL6R",
+   "score": 0.457
+  },
+  {
+   "a": "MTOR",
+   "b": "ROS1",
+   "score": 0.506
+  },
+  {
+   "a": "MTOR",
+   "b": "SYK",
+   "score": 0.532
+  },
+  {
+   "a": "MTOR",
+   "b": "BRCA2",
+   "score": 0.558
+  },
+  {
+   "a": "MTOR",
+   "b": "SNCA",
+   "score": 0.587
+  },
+  {
+   "a": "MTOR",
+   "b": "FGFR2",
+   "score": 0.597
+  },
+  {
+   "a": "MTOR",
+   "b": "CHEK2",
+   "score": 0.598
+  },
+  {
+   "a": "MTOR",
+   "b": "JAK1",
+   "score": 0.613
+  },
+  {
+   "a": "MTOR",
+   "b": "BTK",
+   "score": 0.633
+  },
+  {
+   "a": "MTOR",
+   "b": "RAF1",
+   "score": 0.637
+  },
+  {
+   "a": "MTOR",
+   "b": "PINK1",
+   "score": 0.653
+  },
+  {
+   "a": "MTOR",
+   "b": "ALK",
+   "score": 0.659
+  },
+  {
+   "a": "MTOR",
+   "b": "BRCA1",
+   "score": 0.673
+  },
+  {
+   "a": "MTOR",
+   "b": "PTGS2",
+   "score": 0.681
+  },
+  {
+   "a": "MTOR",
+   "b": "JAK2",
+   "score": 0.724
+  },
+  {
+   "a": "MTOR",
+   "b": "CDKN2A",
+   "score": 0.727
+  },
+  {
+   "a": "MTOR",
+   "b": "SRC",
+   "score": 0.773
+  },
+  {
+   "a": "MTOR",
+   "b": "TNF",
+   "score": 0.78
+  },
+  {
+   "a": "MTOR",
+   "b": "BRAF",
+   "score": 0.803
+  },
+  {
+   "a": "MTOR",
+   "b": "ABL1",
+   "score": 0.812
+  },
+  {
+   "a": "MTOR",
+   "b": "HRAS",
+   "score": 0.827
+  },
+  {
+   "a": "MTOR",
+   "b": "BCL2",
+   "score": 0.87
+  },
+  {
+   "a": "MTOR",
+   "b": "MYC",
+   "score": 0.9
+  },
+  {
+   "a": "MTOR",
+   "b": "NRAS",
+   "score": 0.901
+  },
+  {
+   "a": "MTOR",
+   "b": "PRKN",
+   "score": 0.961
+  },
+  {
+   "a": "MTOR",
+   "b": "AKT1",
+   "score": 0.999
+  },
+  {
+   "a": "PTGS1",
+   "b": "AKT1",
+   "score": 0.428
+  },
+  {
+   "a": "PTGS1",
+   "b": "TNF",
+   "score": 0.549
+  },
+  {
+   "a": "PTGS1",
+   "b": "PTGS2",
+   "score": 0.962
+  },
+  {
+   "a": "DRD2",
+   "b": "AKT1",
+   "score": 0.508
+  },
+  {
+   "a": "DRD2",
+   "b": "CYP2D6",
+   "score": 0.567
+  },
+  {
+   "a": "DRD2",
+   "b": "HTR2A",
+   "score": 0.634
+  },
+  {
+   "a": "DRD2",
+   "b": "SNCA",
+   "score": 0.66
+  },
+  {
+   "a": "PSEN2",
+   "b": "PINK1",
+   "score": 0.565
+  },
+  {
+   "a": "PSEN2",
+   "b": "PRKN",
+   "score": 0.583
+  },
+  {
+   "a": "PSEN2",
+   "b": "BCL2",
+   "score": 0.598
+  },
+  {
+   "a": "PSEN2",
+   "b": "SNCA",
+   "score": 0.607
+  },
+  {
+   "a": "PSEN2",
+   "b": "TREM2",
+   "score": 0.761
+  },
+  {
+   "a": "PRKN",
+   "b": "TNF",
+   "score": 0.401
+  },
+  {
+   "a": "PRKN",
+   "b": "CYP2D6",
+   "score": 0.418
+  },
+  {
+   "a": "PRKN",
+   "b": "BRAF",
+   "score": 0.536
+  },
+  {
+   "a": "PRKN",
+   "b": "BRCA1",
+   "score": 0.589
+  },
+  {
+   "a": "PRKN",
+   "b": "AKT1",
+   "score": 0.648
+  },
+  {
+   "a": "PRKN",
+   "b": "BCL2",
+   "score": 0.788
+  },
+  {
+   "a": "PRKN",
+   "b": "ABL1",
+   "score": 0.886
+  },
+  {
+   "a": "PRKN",
+   "b": "PINK1",
+   "score": 0.999
+  },
+  {
+   "a": "PRKN",
+   "b": "SNCA",
+   "score": 0.999
+  },
+  {
+   "a": "PTGS2",
+   "b": "JAK1",
+   "score": 0.401
+  },
+  {
+   "a": "PTGS2",
+   "b": "SNCA",
+   "score": 0.428
+  },
+  {
+   "a": "PTGS2",
+   "b": "CDKN2A",
+   "score": 0.457
+  },
+  {
+   "a": "PTGS2",
+   "b": "IL6R",
+   "score": 0.487
+  },
+  {
+   "a": "PTGS2",
+   "b": "JAK2",
+   "score": 0.528
+  },
+  {
+   "a": "PTGS2",
+   "b": "MYC",
+   "score": 0.604
+  },
+  {
+   "a": "PTGS2",
+   "b": "SRC",
+   "score": 0.665
+  },
+  {
+   "a": "PTGS2",
+   "b": "BCL2",
+   "score": 0.735
+  },
+  {
+   "a": "PTGS2",
+   "b": "AKT1",
+   "score": 0.764
+  },
+  {
+   "a": "PTGS2",
+   "b": "TNF",
+   "score": 0.919
+  },
+  {
+   "a": "IL6R",
+   "b": "MYC",
+   "score": 0.404
+  },
+  {
+   "a": "IL6R",
+   "b": "TREM2",
+   "score": 0.406
+  },
+  {
+   "a": "IL6R",
+   "b": "BCL2",
+   "score": 0.437
+  },
+  {
+   "a": "IL6R",
+   "b": "AKT1",
+   "score": 0.506
+  },
+  {
+   "a": "IL6R",
+   "b": "TNF",
+   "score": 0.779
+  },
+  {
+   "a": "IL6R",
+   "b": "SRC",
+   "score": 0.933
+  },
+  {
+   "a": "IL6R",
+   "b": "JAK1",
+   "score": 0.978
+  },
+  {
+   "a": "IL6R",
+   "b": "JAK2",
+   "score": 0.984
+  },
+  {
+   "a": "ROS1",
+   "b": "MYC",
+   "score": 0.455
+  },
+  {
+   "a": "ROS1",
+   "b": "BRAF",
+   "score": 0.486
+  },
+  {
+   "a": "ROS1",
+   "b": "BRCA1",
+   "score": 0.492
+  },
+  {
+   "a": "ROS1",
+   "b": "BRCA2",
+   "score": 0.494
+  },
+  {
+   "a": "ROS1",
+   "b": "ALK",
+   "score": 0.512
+  },
+  {
+   "a": "ROS1",
+   "b": "HRAS",
+   "score": 0.549
+  },
+  {
+   "a": "ROS1",
+   "b": "CDKN2A",
+   "score": 0.57
+  },
+  {
+   "a": "ROS1",
+   "b": "NRAS",
+   "score": 0.717
+  },
+  {
+   "a": "NRAS",
+   "b": "BTK",
+   "score": 0.406
+  },
+  {
+   "a": "NRAS",
+   "b": "CHEK2",
+   "score": 0.438
+  },
+  {
+   "a": "NRAS",
+   "b": "BCL2",
+   "score": 0.547
+  },
+  {
+   "a": "NRAS",
+   "b": "BRCA1",
+   "score": 0.556
+  },
+  {
+   "a": "NRAS",
+   "b": "BRCA2",
+   "score": 0.588
+  },
+  {
+   "a": "NRAS",
+   "b": "ABL1",
+   "score": 0.663
+  },
+  {
+   "a": "NRAS",
+   "b": "JAK1",
+   "score": 0.677
+  },
+  {
+   "a": "NRAS",
+   "b": "MYC",
+   "score": 0.701
+  },
+  {
+   "a": "NRAS",
+   "b": "AKT1",
+   "score": 0.817
+  },
+  {
+   "a": "NRAS",
+   "b": "JAK2",
+   "score": 0.837
+  },
+  {
+   "a": "NRAS",
+   "b": "SYK",
+   "score": 0.925
+  },
+  {
+   "a": "NRAS",
+   "b": "FGFR2",
+   "score": 0.965
+  },
+  {
+   "a": "NRAS",
+   "b": "SRC",
+   "score": 0.972
+  },
+  {
+   "a": "NRAS",
+   "b": "ALK",
+   "score": 0.974
+  },
+  {
+   "a": "NRAS",
+   "b": "CDKN2A",
+   "score": 0.978
+  },
+  {
+   "a": "NRAS",
+   "b": "RAF1",
+   "score": 0.999
+  },
+  {
+   "a": "NRAS",
+   "b": "HRAS",
+   "score": 0.999
+  },
+  {
+   "a": "NRAS",
+   "b": "BRAF",
+   "score": 0.999
+  },
+  {
+   "a": "ABL1",
+   "b": "BTK",
+   "score": 0.433
+  },
+  {
+   "a": "ABL1",
+   "b": "TNF",
+   "score": 0.441
+  },
+  {
+   "a": "ABL1",
+   "b": "BRAF",
+   "score": 0.512
+  },
+  {
+   "a": "ABL1",
+   "b": "AKT1",
+   "score": 0.531
+  },
+  {
+   "a": "ABL1",
+   "b": "BRCA2",
+   "score": 0.532
+  },
+  {
+   "a": "ABL1",
+   "b": "HRAS",
+   "score": 0.582
+  },
+  {
+   "a": "ABL1",
+   "b": "JAK2",
+   "score": 0.596
+  },
+  {
+   "a": "ABL1",
+   "b": "JAK1",
+   "score": 0.6
+  },
+  {
+   "a": "ABL1",
+   "b": "CDKN2A",
+   "score": 0.723
+  },
+  {
+   "a": "ABL1",
+   "b": "BCL2",
+   "score": 0.734
+  },
+  {
+   "a": "ABL1",
+   "b": "MYC",
+   "score": 0.841
+  },
+  {
+   "a": "ABL1",
+   "b": "SNCA",
+   "score": 0.882
+  },
+  {
+   "a": "ABL1",
+   "b": "BRCA1",
+   "score": 0.945
+  },
+  {
+   "a": "ABL1",
+   "b": "RAD51",
+   "score": 0.946
+  },
+  {
+   "a": "ABL1",
+   "b": "SRC",
+   "score": 0.988
+  },
+  {
+   "a": "TREM2",
+   "b": "SNCA",
+   "score": 0.573
+  },
+  {
+   "a": "TREM2",
+   "b": "TNF",
+   "score": 0.601
+  },
+  {
+   "a": "TREM2",
+   "b": "BTK",
+   "score": 0.601
+  },
+  {
+   "a": "TREM2",
+   "b": "SYK",
+   "score": 0.972
+  },
+  {
+   "a": "SRC",
+   "b": "BRCA1",
+   "score": 0.47
+  },
+  {
+   "a": "SRC",
+   "b": "CDKN2A",
+   "score": 0.515
+  },
+  {
+   "a": "SRC",
+   "b": "BTK",
+   "score": 0.64
+  },
+  {
+   "a": "SRC",
+   "b": "SNCA",
+   "score": 0.64
+  },
+  {
+   "a": "SRC",
+   "b": "BCL2",
+   "score": 0.687
+  },
+  {
+   "a": "SRC",
+   "b": "TNF",
+   "score": 0.766
+  },
+  {
+   "a": "SRC",
+   "b": "JAK2",
+   "score": 0.791
+  },
+  {
+   "a": "SRC",
+   "b": "ALK",
+   "score": 0.798
+  },
+  {
+   "a": "SRC",
+   "b": "MYC",
+   "score": 0.803
+  },
+  {
+   "a": "SRC",
+   "b": "BRAF",
+   "score": 0.869
+  },
+  {
+   "a": "SRC",
+   "b": "FGFR2",
+   "score": 0.957
+  },
+  {
+   "a": "SRC",
+   "b": "RAF1",
+   "score": 0.984
+  },
+  {
+   "a": "SRC",
+   "b": "AKT1",
+   "score": 0.99
+  },
+  {
+   "a": "SRC",
+   "b": "HRAS",
+   "score": 0.992
+  },
+  {
+   "a": "SRC",
+   "b": "SYK",
+   "score": 0.996
+  },
+  {
+   "a": "PINK1",
+   "b": "TNF",
+   "score": 0.447
+  },
+  {
+   "a": "PINK1",
+   "b": "BCL2",
+   "score": 0.634
+  },
+  {
+   "a": "PINK1",
+   "b": "AKT1",
+   "score": 0.753
+  },
+  {
+   "a": "PINK1",
+   "b": "SNCA",
+   "score": 0.99
+  },
+  {
+   "a": "SYK",
+   "b": "MYC",
+   "score": 0.441
+  },
+  {
+   "a": "SYK",
+   "b": "BCL2",
+   "score": 0.495
+  },
+  {
+   "a": "SYK",
+   "b": "JAK1",
+   "score": 0.625
+  },
+  {
+   "a": "SYK",
+   "b": "AKT1",
+   "score": 0.664
+  },
+  {
+   "a": "SYK",
+   "b": "TNF",
+   "score": 0.769
+  },
+  {
+   "a": "SYK",
+   "b": "SNCA",
+   "score": 0.771
+  },
+  {
+   "a": "SYK",
+   "b": "JAK2",
+   "score": 0.845
+  },
+  {
+   "a": "SYK",
+   "b": "HRAS",
+   "score": 0.922
+  },
+  {
+   "a": "SYK",
+   "b": "BTK",
+   "score": 0.992
+  },
+  {
+   "a": "BRCA2",
+   "b": "JAK2",
+   "score": 0.405
+  },
+  {
+   "a": "BRCA2",
+   "b": "BCL2",
+   "score": 0.48
+  },
+  {
+   "a": "BRCA2",
+   "b": "HRAS",
+   "score": 0.492
+  },
+  {
+   "a": "BRCA2",
+   "b": "ALK",
+   "score": 0.548
+  },
+  {
+   "a": "BRCA2",
+   "b": "FGFR2",
+   "score": 0.569
+  },
+  {
+   "a": "BRCA2",
+   "b": "AKT1",
+   "score": 0.586
+  },
+  {
+   "a": "BRCA2",
+   "b": "MYC",
+   "score": 0.657
+  },
+  {
+   "a": "BRCA2",
+   "b": "BRAF",
+   "score": 0.706
+  },
+  {
+   "a": "BRCA2",
+   "b": "CDKN2A",
+   "score": 0.824
+  },
+  {
+   "a": "BRCA2",
+   "b": "CHEK2",
+   "score": 0.987
+  },
+  {
+   "a": "BRCA2",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "BRCA2",
+   "b": "RAD51",
+   "score": 0.999
+  },
+  {
+   "a": "JAK2",
+   "b": "HTR2A",
+   "score": 0.514
+  },
+  {
+   "a": "JAK2",
+   "b": "CDKN2A",
+   "score": 0.571
+  },
+  {
+   "a": "JAK2",
+   "b": "AKT1",
+   "score": 0.584
+  },
+  {
+   "a": "JAK2",
+   "b": "BTK",
+   "score": 0.586
+  },
+  {
+   "a": "JAK2",
+   "b": "BRAF",
+   "score": 0.657
+  },
+  {
+   "a": "JAK2",
+   "b": "BRCA1",
+   "score": 0.675
+  },
+  {
+   "a": "JAK2",
+   "b": "BCL2",
+   "score": 0.729
+  },
+  {
+   "a": "JAK2",
+   "b": "HRAS",
+   "score": 0.743
+  },
+  {
+   "a": "JAK2",
+   "b": "TNF",
+   "score": 0.805
+  },
+  {
+   "a": "JAK2",
+   "b": "RAF1",
+   "score": 0.824
+  },
+  {
+   "a": "JAK2",
+   "b": "MYC",
+   "score": 0.83
+  },
+  {
+   "a": "JAK2",
+   "b": "FGFR2",
+   "score": 0.916
+  },
+  {
+   "a": "JAK2",
+   "b": "ALK",
+   "score": 0.929
+  },
+  {
+   "a": "JAK2",
+   "b": "JAK1",
+   "score": 0.994
+  },
+  {
+   "a": "CHEK2",
+   "b": "HRAS",
+   "score": 0.4
+  },
+  {
+   "a": "CHEK2",
+   "b": "AKT1",
+   "score": 0.409
+  },
+  {
+   "a": "CHEK2",
+   "b": "BCL2",
+   "score": 0.551
+  },
+  {
+   "a": "CHEK2",
+   "b": "CDKN2A",
+   "score": 0.677
+  },
+  {
+   "a": "CHEK2",
+   "b": "MYC",
+   "score": 0.69
+  },
+  {
+   "a": "CHEK2",
+   "b": "RAD51",
+   "score": 0.922
+  },
+  {
+   "a": "CHEK2",
+   "b": "BRCA1",
+   "score": 0.999
+  },
+  {
+   "a": "ALK",
+   "b": "BRAF",
+   "score": 0.488
+  },
+  {
+   "a": "ALK",
+   "b": "AKT1",
+   "score": 0.502
+  },
+  {
+   "a": "ALK",
+   "b": "BCL2",
+   "score": 0.547
+  },
+  {
+   "a": "ALK",
+   "b": "BRCA1",
+   "score": 0.569
+  },
+  {
+   "a": "ALK",
+   "b": "CDKN2A",
+   "score": 0.655
+  },
+  {
+   "a": "ALK",
+   "b": "MYC",
+   "score": 0.898
+  },
+  {
+   "a": "ALK",
+   "b": "JAK1",
+   "score": 0.918
+  },
+  {
+   "a": "ALK",
+   "b": "HRAS",
+   "score": 0.963
+  },
+  {
+   "a": "VKORC1",
+   "b": "CYP2D6",
+   "score": 0.758
+  },
+  {
+   "a": "BCL2",
+   "b": "SNCA",
+   "score": 0.517
+  },
+  {
+   "a": "BCL2",
+   "b": "JAK1",
+   "score": 0.606
+  },
+  {
+   "a": "BCL2",
+   "b": "HRAS",
+   "score": 0.631
+  },
+  {
+   "a": "BCL2",
+   "b": "BRAF",
+   "score": 0.639
+  },
+  {
+   "a": "BCL2",
+   "b": "BRCA1",
+   "score": 0.665
+  },
+  {
+   "a": "BCL2",
+   "b": "BTK",
+   "score": 0.673
+  },
+  {
+   "a": "BCL2",
+   "b": "CDKN2A",
+   "score": 0.718
+  },
+  {
+   "a": "BCL2",
+   "b": "TNF",
+   "score": 0.875
+  },
+  {
+   "a": "BCL2",
+   "b": "RAF1",
+   "score": 0.96
+  },
+  {
+   "a": "BCL2",
+   "b": "MYC",
+   "score": 0.966
+  },
+  {
+   "a": "BCL2",
+   "b": "AKT1",
+   "score": 0.992
+  },
+  {
+   "a": "TNF",
+   "b": "MS4A1",
+   "score": 0.414
+  },
+  {
+   "a": "TNF",
+   "b": "BRCA1",
+   "score": 0.423
+  },
+  {
+   "a": "TNF",
+   "b": "BRAF",
+   "score": 0.495
+  },
+  {
+   "a": "TNF",
+   "b": "HRAS",
+   "score": 0.567
+  },
+  {
+   "a": "TNF",
+   "b": "CDKN2A",
+   "score": 0.57
+  },
+  {
+   "a": "TNF",
+   "b": "BTK",
+   "score": 0.577
+  },
+  {
+   "a": "TNF",
+   "b": "SNCA",
+   "score": 0.601
+  },
+  {
+   "a": "TNF",
+   "b": "MYC",
+   "score": 0.703
+  },
+  {
+   "a": "TNF",
+   "b": "JAK1",
+   "score": 0.932
+  },
+  {
+   "a": "TNF",
+   "b": "AKT1",
+   "score": 0.95
+  },
+  {
+   "a": "RAF1",
+   "b": "CDKN2A",
+   "score": 0.501
+  },
+  {
+   "a": "RAF1",
+   "b": "JAK1",
+   "score": 0.766
+  },
+  {
+   "a": "RAF1",
+   "b": "MYC",
+   "score": 0.875
+  },
+  {
+   "a": "RAF1",
+   "b": "HRAS",
+   "score": 0.999
+  },
+  {
+   "a": "RAF1",
+   "b": "BRAF",
+   "score": 0.999
+  },
+  {
+   "a": "RAF1",
+   "b": "AKT1",
+   "score": 0.999
+  },
+  {
+   "a": "HRAS",
+   "b": "BRCA1",
+   "score": 0.537
+  },
+  {
+   "a": "HRAS",
+   "b": "JAK1",
+   "score": 0.569
+  },
+  {
+   "a": "HRAS",
+   "b": "AKT1",
+   "score": 0.838
+  },
+  {
+   "a": "HRAS",
+   "b": "MYC",
+   "score": 0.849
+  },
+  {
+   "a": "HRAS",
+   "b": "FGFR2",
+   "score": 0.959
+  },
+  {
+   "a": "HRAS",
+   "b": "CDKN2A",
+   "score": 0.984
+  },
+  {
+   "a": "HRAS",
+   "b": "BRAF",
+   "score": 0.999
+  },
+  {
+   "a": "FGFR2",
+   "b": "MYC",
+   "score": 0.523
+  },
+  {
+   "a": "FGFR2",
+   "b": "BRCA1",
+   "score": 0.567
+  },
+  {
+   "a": "FGFR2",
+   "b": "BRAF",
+   "score": 0.577
+  },
+  {
+   "a": "FGFR2",
+   "b": "CDKN2A",
+   "score": 0.606
+  },
+  {
+   "a": "FGFR2",
+   "b": "JAK1",
+   "score": 0.91
+  },
+  {
+   "a": "CDKN2A",
+   "b": "JAK1",
+   "score": 0.433
+  },
+  {
+   "a": "CDKN2A",
+   "b": "RAD51",
+   "score": 0.46
+  },
+  {
+   "a": "CDKN2A",
+   "b": "BRCA1",
+   "score": 0.861
+  },
+  {
+   "a": "CDKN2A",
+   "b": "AKT1",
+   "score": 0.871
+  },
+  {
+   "a": "CDKN2A",
+   "b": "BRAF",
+   "score": 0.909
+  },
+  {
+   "a": "CDKN2A",
+   "b": "MYC",
+   "score": 0.999
+  },
+  {
+   "a": "BRCA1",
+   "b": "JAK1",
+   "score": 0.615
+  },
+  {
+   "a": "BRCA1",
+   "b": "BRAF",
+   "score": 0.764
+  },
+  {
+   "a": "BRCA1",
+   "b": "AKT1",
+   "score": 0.999
+  },
+  {
+   "a": "BRCA1",
+   "b": "MYC",
+   "score": 0.999
+  },
+  {
+   "a": "BRCA1",
+   "b": "RAD51",
+   "score": 0.999
+  },
+  {
+   "a": "BRAF",
+   "b": "JAK1",
+   "score": 0.403
+  },
+  {
+   "a": "BRAF",
+   "b": "BTK",
+   "score": 0.433
+  },
+  {
+   "a": "BRAF",
+   "b": "MYC",
+   "score": 0.72
+  },
+  {
+   "a": "BRAF",
+   "b": "AKT1",
+   "score": 0.983
+  },
+  {
+   "a": "MS4A1",
+   "b": "BTK",
+   "score": 0.524
+  },
+  {
+   "a": "HTR2A",
+   "b": "BTK",
+   "score": 0.506
+  },
+  {
+   "a": "HTR2A",
+   "b": "CYP2D6",
+   "score": 0.655
+  },
+  {
+   "a": "AKT1",
+   "b": "JAK1",
+   "score": 0.422
+  },
+  {
+   "a": "AKT1",
+   "b": "RAD51",
+   "score": 0.469
+  },
+  {
+   "a": "AKT1",
+   "b": "BTK",
+   "score": 0.596
+  },
+  {
+   "a": "AKT1",
+   "b": "SNCA",
+   "score": 0.747
+  },
+  {
+   "a": "AKT1",
+   "b": "MYC",
+   "score": 0.958
+  },
+  {
+   "a": "MYC",
+   "b": "BTK",
+   "score": 0.549
+  },
+  {
+   "a": "MYC",
+   "b": "RAD51",
+   "score": 0.564
+  },
+  {
+   "a": "MYC",
+   "b": "JAK1",
+   "score": 0.58
+  },
+  {
+   "a": "BTK",
+   "b": "JAK1",
+   "score": 0.575
+  },
+  {
+   "a": "CYP2D6",
+   "b": "SNCA",
+   "score": 0.449
+  }
+ ],
+ "network_type": "functional association, not exclusively physical binding"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_entities": 52,
+  "checked_method_folds": 2574,
+  "covered_candidate_genes": 81,
+  "checked_report_images": 4,
+  "result_csv_sha256": {
+    "input_coverage.csv": "5954a47a4ff1ebff6661aa131275c16947243a60762dc754fc67590c345aaf27",
+    "public_disease_labels.csv": "bf8b62d44913161da670282c34e83020b5aaf6a037b90e3942f2dcc1961713bd",
+    "query_definitions.csv": "fa2af2f7737f77b6c05f652ce093ae16d020d17d3c03a9212fde1358ad2bfea9",
+    "revision_comparison.csv": "9a998ff9c5c86f5bdf333b772d8216473e5f83b4cc53138fdde21cbc9095dc17",
+    "task1_functional_similarity.csv": "0fac39396d3be2b1b905b37022b191d1d2b6d4572f9bd9237b93af7255916bd5",
+    "task2_disease_genes.csv": "3cf987e61704ec7d654a2662ad151d15d08a621c9674070d1a8541c2597a5eb4",
+    "task2_public_benchmark.csv": "30cbd3f4d06b9f9d384afeceefa22be187f52b3e6a1b477e8d59589802b4ef2b",
+    "task2_threshold_sensitivity.csv": "6d4f8eeffe6ad0222989a594790badcb0fb1aec73e07819794d6bcd9fbfe65e2",
+    "task3_drug_targets.csv": "8a0cf5ce9eab40716e2d43c56d2f355f31328e3ec64b28780a3de5841c3844b2",
+    "task3_public_benchmark.csv": "c27f274c968c3412e0048cc83b51eec8fa09f9ee5669391fddd43075af4eb9ac"
+  },
+  "note": "Separate from 10 unit regression tests; no network requests or new model inference."
+}

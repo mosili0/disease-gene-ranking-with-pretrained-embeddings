@@ -1,0 +1,10 @@
+{
+ "source": "UniProt REST API",
+ "original_fetch_date_from_legacy_documentation": "2026-10-25",
+ "fetch_date_verification": "original cache has no embedded timestamp; date is documentation provenance only",
+ "refetched_in_this_revision": false,
+ "file_sha256": {
+  "data/gene_info.json": "50fe0cc7eaecbc4a8f091f5663700ea0abdf6c9b39e0a4d8e0cd829520e46f5e",
+  "data/sequences.json": "3412b3643593310b52371d411bc967af202e730639d2101953192d332b65bc02"
+ }
+}

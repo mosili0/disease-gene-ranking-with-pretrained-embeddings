@@ -1,0 +1,215 @@
+{
+ "evaluation_date": "2026-11-03",
+ "threshold": 0.2,
+ "thresholds": [
+  0.1,
+  0.2,
+  0.3
+ ],
+ "universe": [
+  "BRCA1",
+  "BRCA2",
+  "ATM",
+  "CHEK2",
+  "PALB2",
+  "RAD51",
+  "BRIP1",
+  "MSH2",
+  "MLH1",
+  "RAD51C",
+  "FANCD2",
+  "TP53",
+  "RB1",
+  "CDKN2A",
+  "CCND1",
+  "CDK4",
+  "CDK6",
+  "MYC",
+  "BCL2",
+  "APC",
+  "CDH1",
+  "EGFR",
+  "ERBB2",
+  "KIT",
+  "PDGFRA",
+  "FLT3",
+  "RET",
+  "ALK",
+  "MET",
+  "FGFR2",
+  "VEGFA",
+  "KDR",
+  "ROS1",
+  "KRAS",
+  "HRAS",
+  "NRAS",
+  "BRAF",
+  "RAF1",
+  "MAP2K1",
+  "MAPK1",
+  "PIK3CA",
+  "AKT1",
+  "MTOR",
+  "ABL1",
+  "SRC",
+  "JAK1",
+  "JAK2",
+  "BTK",
+  "SYK",
+  "HMGCR",
+  "FDPS",
+  "PTGS1",
+  "PTGS2",
+  "VKORC1",
+  "CYP2C9",
+  "CYP2D6",
+  "ACHE",
+  "ATP4A",
+  "SLC5A2",
+  "SLC6A4",
+  "DRD2",
+  "HTR2A",
+  "ADRB2",
+  "APP",
+  "PSEN1",
+  "PSEN2",
+  "APOE",
+  "MAPT",
+  "SNCA",
+  "LRRK2",
+  "PRKN",
+  "PINK1",
+  "PARK7",
+  "GBA",
+  "TREM2",
+  "SOD1",
+  "F10",
+  "MS4A1",
+  "IL6R",
+  "TNF",
+  "F2"
+ ],
+ "background_status": "unlabelled, not experimentally verified negatives",
+ "diseases": {
+  "breast_cancer": {
+   "name": "breast cancer",
+   "mondo": "MONDO_0007254",
+   "fetch_date": "2026-11-03",
+   "metadata": {
+    "apiVersion": {
+     "x": "26",
+     "y": "9",
+     "z": "0"
+    },
+    "dataVersion": {
+     "year": "26",
+     "month": "09"
+    }
+   },
+   "total_associated": 17252,
+   "pages": 1,
+   "complete": true
+  },
+  "colorectal_cancer": {
+   "name": "colorectal cancer",
+   "mondo": "MONDO_0005575",
+   "fetch_date": "2026-11-03",
+   "metadata": {
+    "apiVersion": {
+     "x": "26",
+     "y": "9",
+     "z": "0"
+    },
+    "dataVersion": {
+     "year": "26",
+     "month": "09"
+    }
+   },
+   "total_associated": 16268,
+   "pages": 1,
+   "complete": true
+  },
+  "lung_cancer": {
+   "name": "non-small cell lung carcinoma",
+   "mondo": "MONDO_0005233",
+   "fetch_date": "2026-11-03",
+   "metadata": {
+    "apiVersion": {
+     "x": "26",
+     "y": "9",
+     "z": "0"
+    },
+    "dataVersion": {
+     "year": "26",
+     "month": "09"
+    }
+   },
+   "total_associated": 13555,
+   "pages": 1,
+   "complete": true
+  },
+  "parkinson": {
+   "name": "Parkinson disease",
+   "mondo": "MONDO_0005180",
+   "fetch_date": "2026-11-03",
+   "metadata": {
+    "apiVersion": {
+     "x": "26",
+     "y": "9",
+     "z": "0"
+    },
+    "dataVersion": {
+     "year": "26",
+     "month": "09"
+    }
+   },
+   "total_associated": 8994,
+   "pages": 1,
+   "complete": true
+  },
+  "alzheimer": {
+   "name": "Alzheimer disease",
+   "mondo": "MONDO_0004975",
+   "fetch_date": "2026-11-03",
+   "metadata": {
+    "apiVersion": {
+     "x": "26",
+     "y": "9",
+     "z": "0"
+    },
+    "dataVersion": {
+     "year": "26",
+     "month": "09"
+    }
+   },
+   "total_associated": 13006,
+   "pages": 1,
+   "complete": true
+  }
+ },
+ "drug_fetch_dates": {
+  "imatinib": "2026-11-03",
+  "gefitinib": "2026-11-03",
+  "trastuzumab": "2026-11-03",
+  "venetoclax": "2026-11-03",
+  "aspirin": "2026-11-03",
+  "atorvastatin": "2026-11-03",
+  "alendronate": "2026-11-03",
+  "rivaroxaban": "2026-11-03",
+  "warfarin": "2026-11-03",
+  "omeprazole": "2026-11-03",
+  "fluoxetine": "2026-11-03",
+  "empagliflozin": "2026-11-03",
+  "donepezil": "2026-11-03",
+  "rituximab": "2026-11-03",
+  "bevacizumab": "2026-11-03",
+  "haloperidol": "2026-11-03",
+  "dasatinib": "2026-11-03",
+  "sorafenib": "2026-11-03",
+  "crizotinib": "2026-11-03",
+  "palbociclib": "2026-11-03",
+  "sunitinib": "2026-11-03"
+ },
+ "string_fetch_date": "2026-11-03",
+ "string_edges": 1074
+}

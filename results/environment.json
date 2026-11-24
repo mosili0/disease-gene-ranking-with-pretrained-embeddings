@@ -1,0 +1,37 @@
+{
+ "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+ "platform": "Windows-10-10.0.19045-SP0",
+ "packages": {
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.9",
+  "torch": "2.12.0.dev20260408+cu128",
+  "transformers": "5.20.2",
+  "tokenizers": "0.23.3",
+  "regex": "2026.9.29"
+ },
+ "source_sha256": {
+  "main.py": "45283cda33e63965223e4e832953117709cac6cacda5a6ded45bbb6f2cb9ad08",
+  "config.py": "e82c7577db323eb41faeda9325e5dc30ca14f12a33fdd937cfcc3e4fa25ebea2",
+  "src/baselines.py": "d74445dbd97b873ccbab579bf19865cdfc9791e76913062a6e8c5f693b3a592f",
+  "src/benchmark.py": "1e292c96885d01e008bd02aa977a20bcaa167be7eba343d01d5cab9d89d2ae6e",
+  "src/data_fetch.py": "4bb4cfab318d8469f2b9fb934bce293e2c67cfbee34ed0abbb3f0356c217042b",
+  "src/embeddings.py": "a12db1c297256116e282e592be0b7ed5c2e66f6f1067ed95c950fba38e8a2dbe",
+  "src/evaluation.py": "b4a49084ddbf2c5e011a01553019ed88fc1054275b7d63d9331f78a01ad1371d",
+  "src/metrics.py": "d70ca75d745aa4324ab0763dfc36c81b44279819c65a610f5330d6299412b136",
+  "src/tasks.py": "dc57a95af559114f9099d0a347f58a2c6f355ffaac208f817b88444d7f31f92a",
+  "src/utils.py": "d8582cb4cddaf6a7dfd30d2d816ef997870baf8c2f26eeed02b56831243c8e33",
+  "src/visualize.py": "4f35e3aa418dfe1353389c66644cd06e63c7f557de539cbeb6abf376b8b8279a",
+  "src/__init__.py": "8b084a9f378124b2b1a51563bf3c22444eb7ff33692017da28b2136ae56987ed",
+  "scripts/bootstrap.py": "51e825c6e9a890338cc78013792ca2493f1beb84f3859d40c7da8f468777bccd",
+  "scripts/build_report.py": "06591a83de0424fb319fb8966c76adb542442d98d6ec19cc93f7701b10efce24",
+  "scripts/verify_results.py": "93e1153c8b28ad82a533951a8f0c25ecfa2cb071c39747e69b917439fddd8d67",
+  "tests/test_evaluation.py": "b43b4e0f4e547dfbb34fff93c2bae9f414ced1bc9c05a8f8554a34201341d2c7"
+ },
+ "execution_date": "2026-11-03T13:25:17.498795+08:00",
+ "protocol": "leave-one-positive-out_seed-excluded_v2",
+ "device": "cpu",
+ "threads": 4,
+ "offline": true
+}

@@ -1,0 +1,687 @@
+{
+ "schema": "v3-full-coverage-nonoverlapping-1022-aa-and-254-wordpieces",
+ "models": {
+  "esm": {
+   "model_id": "facebook/esm2_t6_8M_UR50D",
+   "n_genes": 81,
+   "dim": 320,
+   "signature": "462b2ca982106d7703a055a0fe6f8db889250c4c65969c9765de732b5fe89f1d",
+   "file_sha256": {
+    "config.json": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85",
+    "vocab.txt": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03",
+    "tokenizer_config.json": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+    "model.safetensors": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+    "pytorch_model.bin": "9edcf393212f3a26684cd68ca8095ec43c2c341ee0fcc3ba7a4d3a47c5dc138f"
+   }
+  },
+  "biobert": {
+   "model_id": "dmis-lab/biobert-base-cased-v1.1",
+   "n_genes": 81,
+   "dim": 768,
+   "signature": "b87d142d6f58d551646b5a0ebf5e42da143bfea79e95f42b41685bbeeabea60b",
+   "file_sha256": {
+    "config.json": "f11dfb757bea16339a33e1bf327b0aade6e57fd9c29dc6b84f7ddb20682f48bc",
+    "vocab.txt": "eeaa9875b23b04b4c54ef759d03db9d1ba1554838f8fb26c5d96fa551df93d02",
+    "pytorch_model.bin": "21cf2141799f02e42da63d55f9649d9432738c2eda258cb494c435cc6300c787"
+   }
+  }
+ },
+ "sequence_coverage": [
+  {
+   "gene": "BRCA1",
+   "length": 1863,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1863
+  },
+  {
+   "gene": "BRCA2",
+   "length": 3418,
+   "windows": 4,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 3418
+  },
+  {
+   "gene": "ATM",
+   "length": 3056,
+   "windows": 3,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 3056
+  },
+  {
+   "gene": "CHEK2",
+   "length": 543,
+   "windows": 1,
+   "old_prefix_residues": 543,
+   "new_covered_residues": 543
+  },
+  {
+   "gene": "PALB2",
+   "length": 1186,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1186
+  },
+  {
+   "gene": "RAD51",
+   "length": 339,
+   "windows": 1,
+   "old_prefix_residues": 339,
+   "new_covered_residues": 339
+  },
+  {
+   "gene": "BRIP1",
+   "length": 1249,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1249
+  },
+  {
+   "gene": "MSH2",
+   "length": 934,
+   "windows": 1,
+   "old_prefix_residues": 934,
+   "new_covered_residues": 934
+  },
+  {
+   "gene": "MLH1",
+   "length": 756,
+   "windows": 1,
+   "old_prefix_residues": 756,
+   "new_covered_residues": 756
+  },
+  {
+   "gene": "RAD51C",
+   "length": 376,
+   "windows": 1,
+   "old_prefix_residues": 376,
+   "new_covered_residues": 376
+  },
+  {
+   "gene": "FANCD2",
+   "length": 1451,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1451
+  },
+  {
+   "gene": "TP53",
+   "length": 393,
+   "windows": 1,
+   "old_prefix_residues": 393,
+   "new_covered_residues": 393
+  },
+  {
+   "gene": "RB1",
+   "length": 928,
+   "windows": 1,
+   "old_prefix_residues": 928,
+   "new_covered_residues": 928
+  },
+  {
+   "gene": "CDKN2A",
+   "length": 156,
+   "windows": 1,
+   "old_prefix_residues": 156,
+   "new_covered_residues": 156
+  },
+  {
+   "gene": "CCND1",
+   "length": 295,
+   "windows": 1,
+   "old_prefix_residues": 295,
+   "new_covered_residues": 295
+  },
+  {
+   "gene": "CDK4",
+   "length": 303,
+   "windows": 1,
+   "old_prefix_residues": 303,
+   "new_covered_residues": 303
+  },
+  {
+   "gene": "CDK6",
+   "length": 326,
+   "windows": 1,
+   "old_prefix_residues": 326,
+   "new_covered_residues": 326
+  },
+  {
+   "gene": "MYC",
+   "length": 454,
+   "windows": 1,
+   "old_prefix_residues": 454,
+   "new_covered_residues": 454
+  },
+  {
+   "gene": "BCL2",
+   "length": 239,
+   "windows": 1,
+   "old_prefix_residues": 239,
+   "new_covered_residues": 239
+  },
+  {
+   "gene": "APC",
+   "length": 2843,
+   "windows": 3,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 2843
+  },
+  {
+   "gene": "CDH1",
+   "length": 882,
+   "windows": 1,
+   "old_prefix_residues": 882,
+   "new_covered_residues": 882
+  },
+  {
+   "gene": "EGFR",
+   "length": 1210,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1210
+  },
+  {
+   "gene": "ERBB2",
+   "length": 1255,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1255
+  },
+  {
+   "gene": "KIT",
+   "length": 976,
+   "windows": 1,
+   "old_prefix_residues": 976,
+   "new_covered_residues": 976
+  },
+  {
+   "gene": "PDGFRA",
+   "length": 1089,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1089
+  },
+  {
+   "gene": "FLT3",
+   "length": 993,
+   "windows": 1,
+   "old_prefix_residues": 993,
+   "new_covered_residues": 993
+  },
+  {
+   "gene": "RET",
+   "length": 1114,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1114
+  },
+  {
+   "gene": "ALK",
+   "length": 1620,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1620
+  },
+  {
+   "gene": "MET",
+   "length": 1390,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1390
+  },
+  {
+   "gene": "FGFR2",
+   "length": 821,
+   "windows": 1,
+   "old_prefix_residues": 821,
+   "new_covered_residues": 821
+  },
+  {
+   "gene": "VEGFA",
+   "length": 395,
+   "windows": 1,
+   "old_prefix_residues": 395,
+   "new_covered_residues": 395
+  },
+  {
+   "gene": "KDR",
+   "length": 1356,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1356
+  },
+  {
+   "gene": "ROS1",
+   "length": 2347,
+   "windows": 3,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 2347
+  },
+  {
+   "gene": "KRAS",
+   "length": 189,
+   "windows": 1,
+   "old_prefix_residues": 189,
+   "new_covered_residues": 189
+  },
+  {
+   "gene": "HRAS",
+   "length": 189,
+   "windows": 1,
+   "old_prefix_residues": 189,
+   "new_covered_residues": 189
+  },
+  {
+   "gene": "NRAS",
+   "length": 189,
+   "windows": 1,
+   "old_prefix_residues": 189,
+   "new_covered_residues": 189
+  },
+  {
+   "gene": "BRAF",
+   "length": 766,
+   "windows": 1,
+   "old_prefix_residues": 766,
+   "new_covered_residues": 766
+  },
+  {
+   "gene": "RAF1",
+   "length": 648,
+   "windows": 1,
+   "old_prefix_residues": 648,
+   "new_covered_residues": 648
+  },
+  {
+   "gene": "MAP2K1",
+   "length": 393,
+   "windows": 1,
+   "old_prefix_residues": 393,
+   "new_covered_residues": 393
+  },
+  {
+   "gene": "MAPK1",
+   "length": 360,
+   "windows": 1,
+   "old_prefix_residues": 360,
+   "new_covered_residues": 360
+  },
+  {
+   "gene": "PIK3CA",
+   "length": 1068,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1068
+  },
+  {
+   "gene": "AKT1",
+   "length": 480,
+   "windows": 1,
+   "old_prefix_residues": 480,
+   "new_covered_residues": 480
+  },
+  {
+   "gene": "MTOR",
+   "length": 2549,
+   "windows": 3,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 2549
+  },
+  {
+   "gene": "ABL1",
+   "length": 1130,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1130
+  },
+  {
+   "gene": "SRC",
+   "length": 536,
+   "windows": 1,
+   "old_prefix_residues": 536,
+   "new_covered_residues": 536
+  },
+  {
+   "gene": "JAK1",
+   "length": 1154,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1154
+  },
+  {
+   "gene": "JAK2",
+   "length": 1132,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1132
+  },
+  {
+   "gene": "BTK",
+   "length": 659,
+   "windows": 1,
+   "old_prefix_residues": 659,
+   "new_covered_residues": 659
+  },
+  {
+   "gene": "SYK",
+   "length": 635,
+   "windows": 1,
+   "old_prefix_residues": 635,
+   "new_covered_residues": 635
+  },
+  {
+   "gene": "HMGCR",
+   "length": 888,
+   "windows": 1,
+   "old_prefix_residues": 888,
+   "new_covered_residues": 888
+  },
+  {
+   "gene": "FDPS",
+   "length": 419,
+   "windows": 1,
+   "old_prefix_residues": 419,
+   "new_covered_residues": 419
+  },
+  {
+   "gene": "PTGS1",
+   "length": 599,
+   "windows": 1,
+   "old_prefix_residues": 599,
+   "new_covered_residues": 599
+  },
+  {
+   "gene": "PTGS2",
+   "length": 604,
+   "windows": 1,
+   "old_prefix_residues": 604,
+   "new_covered_residues": 604
+  },
+  {
+   "gene": "VKORC1",
+   "length": 163,
+   "windows": 1,
+   "old_prefix_residues": 163,
+   "new_covered_residues": 163
+  },
+  {
+   "gene": "CYP2C9",
+   "length": 490,
+   "windows": 1,
+   "old_prefix_residues": 490,
+   "new_covered_residues": 490
+  },
+  {
+   "gene": "CYP2D6",
+   "length": 497,
+   "windows": 1,
+   "old_prefix_residues": 497,
+   "new_covered_residues": 497
+  },
+  {
+   "gene": "ACHE",
+   "length": 614,
+   "windows": 1,
+   "old_prefix_residues": 614,
+   "new_covered_residues": 614
+  },
+  {
+   "gene": "ATP4A",
+   "length": 1035,
+   "windows": 2,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 1035
+  },
+  {
+   "gene": "SLC5A2",
+   "length": 672,
+   "windows": 1,
+   "old_prefix_residues": 672,
+   "new_covered_residues": 672
+  },
+  {
+   "gene": "SLC6A4",
+   "length": 630,
+   "windows": 1,
+   "old_prefix_residues": 630,
+   "new_covered_residues": 630
+  },
+  {
+   "gene": "DRD2",
+   "length": 443,
+   "windows": 1,
+   "old_prefix_residues": 443,
+   "new_covered_residues": 443
+  },
+  {
+   "gene": "HTR2A",
+   "length": 471,
+   "windows": 1,
+   "old_prefix_residues": 471,
+   "new_covered_residues": 471
+  },
+  {
+   "gene": "ADRB2",
+   "length": 413,
+   "windows": 1,
+   "old_prefix_residues": 413,
+   "new_covered_residues": 413
+  },
+  {
+   "gene": "APP",
+   "length": 770,
+   "windows": 1,
+   "old_prefix_residues": 770,
+   "new_covered_residues": 770
+  },
+  {
+   "gene": "PSEN1",
+   "length": 467,
+   "windows": 1,
+   "old_prefix_residues": 467,
+   "new_covered_residues": 467
+  },
+  {
+   "gene": "PSEN2",
+   "length": 448,
+   "windows": 1,
+   "old_prefix_residues": 448,
+   "new_covered_residues": 448
+  },
+  {
+   "gene": "APOE",
+   "length": 317,
+   "windows": 1,
+   "old_prefix_residues": 317,
+   "new_covered_residues": 317
+  },
+  {
+   "gene": "MAPT",
+   "length": 758,
+   "windows": 1,
+   "old_prefix_residues": 758,
+   "new_covered_residues": 758
+  },
+  {
+   "gene": "SNCA",
+   "length": 140,
+   "windows": 1,
+   "old_prefix_residues": 140,
+   "new_covered_residues": 140
+  },
+  {
+   "gene": "LRRK2",
+   "length": 2527,
+   "windows": 3,
+   "old_prefix_residues": 1022,
+   "new_covered_residues": 2527
+  },
+  {
+   "gene": "PRKN",
+   "length": 465,
+   "windows": 1,
+   "old_prefix_residues": 465,
+   "new_covered_residues": 465
+  },
+  {
+   "gene": "PINK1",
+   "length": 581,
+   "windows": 1,
+   "old_prefix_residues": 581,
+   "new_covered_residues": 581
+  },
+  {
+   "gene": "PARK7",
+   "length": 189,
+   "windows": 1,
+   "old_prefix_residues": 189,
+   "new_covered_residues": 189
+  },
+  {
+   "gene": "GBA",
+   "length": 536,
+   "windows": 1,
+   "old_prefix_residues": 536,
+   "new_covered_residues": 536
+  },
+  {
+   "gene": "TREM2",
+   "length": 230,
+   "windows": 1,
+   "old_prefix_residues": 230,
+   "new_covered_residues": 230
+  },
+  {
+   "gene": "SOD1",
+   "length": 154,
+   "windows": 1,
+   "old_prefix_residues": 154,
+   "new_covered_residues": 154
+  },
+  {
+   "gene": "F10",
+   "length": 488,
+   "windows": 1,
+   "old_prefix_residues": 488,
+   "new_covered_residues": 488
+  },
+  {
+   "gene": "MS4A1",
+   "length": 297,
+   "windows": 1,
+   "old_prefix_residues": 297,
+   "new_covered_residues": 297
+  },
+  {
+   "gene": "IL6R",
+   "length": 468,
+   "windows": 1,
+   "old_prefix_residues": 468,
+   "new_covered_residues": 468
+  },
+  {
+   "gene": "TNF",
+   "length": 233,
+   "windows": 1,
+   "old_prefix_residues": 233,
+   "new_covered_residues": 233
+  },
+  {
+   "gene": "F2",
+   "length": 622,
+   "windows": 1,
+   "old_prefix_residues": 622,
+   "new_covered_residues": 622
+  }
+ ],
+ "query_signature": "69362aab7ed99e758805c2451cdb91e546fa88b05404d4a532493f0bd90344af",
+ "text_truncation": {
+  "window_tokens": 256,
+  "n_truncated": 0,
+  "n_exceeding_single_window": 55,
+  "token_lengths": {
+   "BRCA1": 357,
+   "BRCA2": 499,
+   "ATM": 718,
+   "CHEK2": 581,
+   "PALB2": 368,
+   "RAD51": 354,
+   "BRIP1": 225,
+   "MSH2": 375,
+   "MLH1": 320,
+   "RAD51C": 484,
+   "FANCD2": 246,
+   "TP53": 498,
+   "RB1": 465,
+   "CDKN2A": 58,
+   "CCND1": 308,
+   "CDK4": 243,
+   "CDK6": 309,
+   "MYC": 215,
+   "BCL2": 186,
+   "APC": 231,
+   "CDH1": 284,
+   "EGFR": 592,
+   "ERBB2": 284,
+   "KIT": 407,
+   "PDGFRA": 528,
+   "FLT3": 217,
+   "RET": 614,
+   "ALK": 508,
+   "MET": 369,
+   "FGFR2": 364,
+   "VEGFA": 295,
+   "KDR": 449,
+   "ROS1": 234,
+   "KRAS": 179,
+   "HRAS": 101,
+   "NRAS": 99,
+   "BRAF": 85,
+   "RAF1": 500,
+   "MAP2K1": 463,
+   "MAPK1": 976,
+   "PIK3CA": 486,
+   "AKT1": 1841,
+   "MTOR": 1540,
+   "ABL1": 974,
+   "SRC": 1828,
+   "JAK1": 475,
+   "JAK2": 766,
+   "BTK": 569,
+   "SYK": 900,
+   "HMGCR": 114,
+   "FDPS": 151,
+   "PTGS1": 541,
+   "PTGS2": 1068,
+   "VKORC1": 85,
+   "CYP2C9": 368,
+   "CYP2D6": 361,
+   "ACHE": 55,
+   "ATP4A": 230,
+   "SLC5A2": 160,
+   "SLC6A4": 547,
+   "DRD2": 656,
+   "HTR2A": 375,
+   "ADRB2": 279,
+   "APP": 696,
+   "PSEN1": 460,
+   "PSEN2": 181,
+   "APOE": 828,
+   "MAPT": 141,
+   "SNCA": 256,
+   "LRRK2": 766,
+   "PRKN": 1173,
+   "PINK1": 602,
+   "PARK7": 884,
+   "GBA": 10,
+   "TREM2": 653,
+   "SOD1": 85,
+   "F10": 477,
+   "MS4A1": 79,
+   "IL6R": 618,
+   "TNF": 397,
+   "F2": 145
+  }
+ }
+}

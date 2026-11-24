@@ -1,0 +1,595 @@
+{
+ "schema_version": 3,
+ "complete": true,
+ "coverage_scope": "all resolved candidate IDs",
+ "universe": [
+  "BRCA1",
+  "BRCA2",
+  "ATM",
+  "CHEK2",
+  "PALB2",
+  "RAD51",
+  "BRIP1",
+  "MSH2",
+  "MLH1",
+  "RAD51C",
+  "FANCD2",
+  "TP53",
+  "RB1",
+  "CDKN2A",
+  "CCND1",
+  "CDK4",
+  "CDK6",
+  "MYC",
+  "BCL2",
+  "APC",
+  "CDH1",
+  "EGFR",
+  "ERBB2",
+  "KIT",
+  "PDGFRA",
+  "FLT3",
+  "RET",
+  "ALK",
+  "MET",
+  "FGFR2",
+  "VEGFA",
+  "KDR",
+  "ROS1",
+  "KRAS",
+  "HRAS",
+  "NRAS",
+  "BRAF",
+  "RAF1",
+  "MAP2K1",
+  "MAPK1",
+  "PIK3CA",
+  "AKT1",
+  "MTOR",
+  "ABL1",
+  "SRC",
+  "JAK1",
+  "JAK2",
+  "BTK",
+  "SYK",
+  "HMGCR",
+  "FDPS",
+  "PTGS1",
+  "PTGS2",
+  "VKORC1",
+  "CYP2C9",
+  "CYP2D6",
+  "ACHE",
+  "ATP4A",
+  "SLC5A2",
+  "SLC6A4",
+  "DRD2",
+  "HTR2A",
+  "ADRB2",
+  "APP",
+  "PSEN1",
+  "PSEN2",
+  "APOE",
+  "MAPT",
+  "SNCA",
+  "LRRK2",
+  "PRKN",
+  "PINK1",
+  "PARK7",
+  "GBA",
+  "TREM2",
+  "SOD1",
+  "F10",
+  "MS4A1",
+  "IL6R",
+  "TNF",
+  "F2"
+ ],
+ "disease_key": "colorectal_cancer",
+ "mondo": "MONDO_0005575",
+ "name": "colorectal cancer",
+ "fetch_date": "2026-11-03",
+ "endpoint": "https://api.platform.opentargets.org/api/v4/graphql",
+ "metadata": {
+  "apiVersion": {
+   "x": "26",
+   "y": "9",
+   "z": "0"
+  },
+  "dataVersion": {
+   "year": "26",
+   "month": "09"
+  }
+ },
+ "total_associated": 16268,
+ "candidate_associated": 81,
+ "pages": 1,
+ "associations": [
+  {
+   "target_id": "ENSG00000095002",
+   "symbol": "MSH2",
+   "approved_symbol": "MSH2",
+   "score": 0.9245589506857864
+  },
+  {
+   "target_id": "ENSG00000076242",
+   "symbol": "MLH1",
+   "approved_symbol": "MLH1",
+   "score": 0.9207725823983338
+  },
+  {
+   "target_id": "ENSG00000134982",
+   "symbol": "APC",
+   "approved_symbol": "APC",
+   "score": 0.8792887684601447
+  },
+  {
+   "target_id": "ENSG00000157764",
+   "symbol": "BRAF",
+   "approved_symbol": "BRAF",
+   "score": 0.8393935913988426
+  },
+  {
+   "target_id": "ENSG00000141510",
+   "symbol": "TP53",
+   "approved_symbol": "TP53",
+   "score": 0.8346959402362145
+  },
+  {
+   "target_id": "ENSG00000121879",
+   "symbol": "PIK3CA",
+   "approved_symbol": "PIK3CA",
+   "score": 0.8177834256640503
+  },
+  {
+   "target_id": "ENSG00000133703",
+   "symbol": "KRAS",
+   "approved_symbol": "KRAS",
+   "score": 0.8092921910031315
+  },
+  {
+   "target_id": "ENSG00000149311",
+   "symbol": "ATM",
+   "approved_symbol": "ATM",
+   "score": 0.7830789999382839
+  },
+  {
+   "target_id": "ENSG00000146648",
+   "symbol": "EGFR",
+   "approved_symbol": "EGFR",
+   "score": 0.7733275908084274
+  },
+  {
+   "target_id": "ENSG00000066468",
+   "symbol": "FGFR2",
+   "approved_symbol": "FGFR2",
+   "score": 0.7732776112554807
+  },
+  {
+   "target_id": "ENSG00000141736",
+   "symbol": "ERBB2",
+   "approved_symbol": "ERBB2",
+   "score": 0.7516768500032581
+  },
+  {
+   "target_id": "ENSG00000128052",
+   "symbol": "KDR",
+   "approved_symbol": "KDR",
+   "score": 0.7495727083928627
+  },
+  {
+   "target_id": "ENSG00000139618",
+   "symbol": "BRCA2",
+   "approved_symbol": "BRCA2",
+   "score": 0.7465488283354084
+  },
+  {
+   "target_id": "ENSG00000213281",
+   "symbol": "NRAS",
+   "approved_symbol": "NRAS",
+   "score": 0.7385972262204539
+  },
+  {
+   "target_id": "ENSG00000183765",
+   "symbol": "CHEK2",
+   "approved_symbol": "CHEK2",
+   "score": 0.7355845803139849
+  },
+  {
+   "target_id": "ENSG00000157404",
+   "symbol": "KIT",
+   "approved_symbol": "KIT",
+   "score": 0.7306512252021372
+  },
+  {
+   "target_id": "ENSG00000165731",
+   "symbol": "RET",
+   "approved_symbol": "RET",
+   "score": 0.7262115823063541
+  },
+  {
+   "target_id": "ENSG00000132155",
+   "symbol": "RAF1",
+   "approved_symbol": "RAF1",
+   "score": 0.7157580988715919
+  },
+  {
+   "target_id": "ENSG00000142208",
+   "symbol": "AKT1",
+   "approved_symbol": "AKT1",
+   "score": 0.7030840669544608
+  },
+  {
+   "target_id": "ENSG00000134853",
+   "symbol": "PDGFRA",
+   "approved_symbol": "PDGFRA",
+   "score": 0.7010849549239451
+  },
+  {
+   "target_id": "ENSG00000097007",
+   "symbol": "ABL1",
+   "approved_symbol": "ABL1",
+   "score": 0.6902244754118299
+  },
+  {
+   "target_id": "ENSG00000083093",
+   "symbol": "PALB2",
+   "approved_symbol": "PALB2",
+   "score": 0.6605468864538349
+  },
+  {
+   "target_id": "ENSG00000012048",
+   "symbol": "BRCA1",
+   "approved_symbol": "BRCA1",
+   "score": 0.640151457717205
+  },
+  {
+   "target_id": "ENSG00000112715",
+   "symbol": "VEGFA",
+   "approved_symbol": "VEGFA",
+   "score": 0.6294616512967567
+  },
+  {
+   "target_id": "ENSG00000198793",
+   "symbol": "MTOR",
+   "approved_symbol": "MTOR",
+   "score": 0.6135284637945834
+  },
+  {
+   "target_id": "ENSG00000110092",
+   "symbol": "CCND1",
+   "approved_symbol": "CCND1",
+   "score": 0.5662808142495724
+  },
+  {
+   "target_id": "ENSG00000105976",
+   "symbol": "MET",
+   "approved_symbol": "MET",
+   "score": 0.5618192968700614
+  },
+  {
+   "target_id": "ENSG00000039068",
+   "symbol": "CDH1",
+   "approved_symbol": "CDH1",
+   "score": 0.5508283877656661
+  },
+  {
+   "target_id": "ENSG00000169032",
+   "symbol": "MAP2K1",
+   "approved_symbol": "MAP2K1",
+   "score": 0.5370755352004524
+  },
+  {
+   "target_id": "ENSG00000165025",
+   "symbol": "SYK",
+   "approved_symbol": "SYK",
+   "score": 0.5351018924789869
+  },
+  {
+   "target_id": "ENSG00000139687",
+   "symbol": "RB1",
+   "approved_symbol": "RB1",
+   "score": 0.5283807239053067
+  },
+  {
+   "target_id": "ENSG00000136492",
+   "symbol": "BRIP1",
+   "approved_symbol": "BRIP1",
+   "score": 0.512728582221291
+  },
+  {
+   "target_id": "ENSG00000122025",
+   "symbol": "FLT3",
+   "approved_symbol": "FLT3",
+   "score": 0.5068201306519086
+  },
+  {
+   "target_id": "ENSG00000144554",
+   "symbol": "FANCD2",
+   "approved_symbol": "FANCD2",
+   "score": 0.4996571998197419
+  },
+  {
+   "target_id": "ENSG00000147889",
+   "symbol": "CDKN2A",
+   "approved_symbol": "CDKN2A",
+   "score": 0.4979740964193028
+  },
+  {
+   "target_id": "ENSG00000197122",
+   "symbol": "SRC",
+   "approved_symbol": "SRC",
+   "score": 0.49796664240270766
+  },
+  {
+   "target_id": "ENSG00000171094",
+   "symbol": "ALK",
+   "approved_symbol": "ALK",
+   "score": 0.49699728517333547
+  },
+  {
+   "target_id": "ENSG00000136997",
+   "symbol": "MYC",
+   "approved_symbol": "MYC",
+   "score": 0.48753583136471174
+  },
+  {
+   "target_id": "ENSG00000162434",
+   "symbol": "JAK1",
+   "approved_symbol": "JAK1",
+   "score": 0.4680282076679699
+  },
+  {
+   "target_id": "ENSG00000100030",
+   "symbol": "MAPK1",
+   "approved_symbol": "MAPK1",
+   "score": 0.4668704307375646
+  },
+  {
+   "target_id": "ENSG00000047936",
+   "symbol": "ROS1",
+   "approved_symbol": "ROS1",
+   "score": 0.4546530960937718
+  },
+  {
+   "target_id": "ENSG00000096968",
+   "symbol": "JAK2",
+   "approved_symbol": "JAK2",
+   "score": 0.447220495722658
+  },
+  {
+   "target_id": "ENSG00000073756",
+   "symbol": "PTGS2",
+   "approved_symbol": "PTGS2",
+   "score": 0.4468458480151395
+  },
+  {
+   "target_id": "ENSG00000174775",
+   "symbol": "HRAS",
+   "approved_symbol": "HRAS",
+   "score": 0.44448771310482493
+  },
+  {
+   "target_id": "ENSG00000171791",
+   "symbol": "BCL2",
+   "approved_symbol": "BCL2",
+   "score": 0.4409322766866853
+  },
+  {
+   "target_id": "ENSG00000135446",
+   "symbol": "CDK4",
+   "approved_symbol": "CDK4",
+   "score": 0.43519301332977733
+  },
+  {
+   "target_id": "ENSG00000105810",
+   "symbol": "CDK6",
+   "approved_symbol": "CDK6",
+   "score": 0.4348051865504533
+  },
+  {
+   "target_id": "ENSG00000108384",
+   "symbol": "RAD51C",
+   "approved_symbol": "RAD51C",
+   "score": 0.4326072725651418
+  },
+  {
+   "target_id": "ENSG00000095303",
+   "symbol": "PTGS1",
+   "approved_symbol": "PTGS1",
+   "score": 0.4241541471207889
+  },
+  {
+   "target_id": "ENSG00000010671",
+   "symbol": "BTK",
+   "approved_symbol": "BTK",
+   "score": 0.41536378441383426
+  },
+  {
+   "target_id": "ENSG00000169252",
+   "symbol": "ADRB2",
+   "approved_symbol": "ADRB2",
+   "score": 0.3900871032005558
+  },
+  {
+   "target_id": "ENSG00000113161",
+   "symbol": "HMGCR",
+   "approved_symbol": "HMGCR",
+   "score": 0.35866540615258796
+  },
+  {
+   "target_id": "ENSG00000051180",
+   "symbol": "RAD51",
+   "approved_symbol": "RAD51",
+   "score": 0.2759290814735478
+  },
+  {
+   "target_id": "ENSG00000105675",
+   "symbol": "ATP4A",
+   "approved_symbol": "ATP4A",
+   "score": 0.27437403089650764
+  },
+  {
+   "target_id": "ENSG00000232810",
+   "symbol": "TNF",
+   "approved_symbol": "TNF",
+   "score": 0.11875391902393403
+  },
+  {
+   "target_id": "ENSG00000116288",
+   "symbol": "PARK7",
+   "approved_symbol": "PARK7",
+   "score": 0.11384426871580867
+  },
+  {
+   "target_id": "ENSG00000149295",
+   "symbol": "DRD2",
+   "approved_symbol": "DRD2",
+   "score": 0.1138103332055537
+  },
+  {
+   "target_id": "ENSG00000160712",
+   "symbol": "IL6R",
+   "approved_symbol": "IL6R",
+   "score": 0.11334766637764371
+  },
+  {
+   "target_id": "ENSG00000130203",
+   "symbol": "APOE",
+   "approved_symbol": "APOE",
+   "score": 0.11044243372406458
+  },
+  {
+   "target_id": "ENSG00000080815",
+   "symbol": "PSEN1",
+   "approved_symbol": "PSEN1",
+   "score": 0.10649439252514695
+  },
+  {
+   "target_id": "ENSG00000143801",
+   "symbol": "PSEN2",
+   "approved_symbol": "PSEN2",
+   "score": 0.10375783987764114
+  },
+  {
+   "target_id": "ENSG00000138109",
+   "symbol": "CYP2C9",
+   "approved_symbol": "CYP2C9",
+   "score": 0.0974126443511323
+  },
+  {
+   "target_id": "ENSG00000095970",
+   "symbol": "TREM2",
+   "approved_symbol": "TREM2",
+   "score": 0.09714149313239877
+  },
+  {
+   "target_id": "ENSG00000186868",
+   "symbol": "MAPT",
+   "approved_symbol": "MAPT",
+   "score": 0.09435819115368083
+  },
+  {
+   "target_id": "ENSG00000142192",
+   "symbol": "APP",
+   "approved_symbol": "APP",
+   "score": 0.09123500613804557
+  },
+  {
+   "target_id": "ENSG00000108576",
+   "symbol": "SLC6A4",
+   "approved_symbol": "SLC6A4",
+   "score": 0.08885196306444425
+  },
+  {
+   "target_id": "ENSG00000185345",
+   "symbol": "PRKN",
+   "approved_symbol": "PRKN",
+   "score": 0.08853554269397473
+  },
+  {
+   "target_id": "ENSG00000142168",
+   "symbol": "SOD1",
+   "approved_symbol": "SOD1",
+   "score": 0.08148437699226575
+  },
+  {
+   "target_id": "ENSG00000102468",
+   "symbol": "HTR2A",
+   "approved_symbol": "HTR2A",
+   "score": 0.07288827914555418
+  },
+  {
+   "target_id": "ENSG00000140675",
+   "symbol": "SLC5A2",
+   "approved_symbol": "SLC5A2",
+   "score": 0.06624225023114605
+  },
+  {
+   "target_id": "ENSG00000188906",
+   "symbol": "LRRK2",
+   "approved_symbol": "LRRK2",
+   "score": 0.05957265332659604
+  },
+  {
+   "target_id": "ENSG00000158828",
+   "symbol": "PINK1",
+   "approved_symbol": "PINK1",
+   "score": 0.05590000723336525
+  },
+  {
+   "target_id": "ENSG00000156738",
+   "symbol": "MS4A1",
+   "approved_symbol": "MS4A1",
+   "score": 0.05173182774580946
+  },
+  {
+   "target_id": "ENSG00000126218",
+   "symbol": "F10",
+   "approved_symbol": "F10",
+   "score": 0.04059142263562241
+  },
+  {
+   "target_id": "ENSG00000177628",
+   "symbol": "GBA",
+   "approved_symbol": "GBA1",
+   "score": 0.03662452597901925
+  },
+  {
+   "target_id": "ENSG00000180210",
+   "symbol": "F2",
+   "approved_symbol": "F2",
+   "score": 0.03296244151893354
+  },
+  {
+   "target_id": "ENSG00000100197",
+   "symbol": "CYP2D6",
+   "approved_symbol": "CYP2D6",
+   "score": 0.029647967246843626
+  },
+  {
+   "target_id": "ENSG00000160752",
+   "symbol": "FDPS",
+   "approved_symbol": "FDPS",
+   "score": 0.018879266667344647
+  },
+  {
+   "target_id": "ENSG00000087085",
+   "symbol": "ACHE",
+   "approved_symbol": "ACHE",
+   "score": 0.016651040824877145
+  },
+  {
+   "target_id": "ENSG00000145335",
+   "symbol": "SNCA",
+   "approved_symbol": "SNCA",
+   "score": 0.014432975046752249
+  },
+  {
+   "target_id": "ENSG00000167397",
+   "symbol": "VKORC1",
+   "approved_symbol": "VKORC1",
+   "score": 0.003675266332697868
+  }
+ ]
+}
