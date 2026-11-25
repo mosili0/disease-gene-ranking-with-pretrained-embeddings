@@ -6,7 +6,6 @@
 
 **这是修订后的评估版本。** 每折留出一个已知正例，用剩余种子对待测正例及全部未标注背景共同评分；种子不参加候选排序，AUC在折内计算后平均。结果不能解释为全基因组筛查、临床致病判断或未知药物靶点发现。
 
-完整结论和实际数字见[实验报告](实验报告.md)，[十分钟汇报提纲](汇报提纲.md)可用于小组分工。各表由结果CSV自动生成，执行 `--steps report` 会更新报告和提纲。
 
 ## 1 本机和离线复现
 
@@ -114,8 +113,3 @@ archive_before_revision_20261103/  本地旧版备份（不提交）
 
 主要来源：[UniProt](https://www.uniprot.org/help/api)、[Open Targets](https://platform-docs.opentargets.org/data-access/graphql-api)、[ChEMBL](https://www.ebi.ac.uk/chembl/api/data/docs)、[STRING](https://string-db.org/help/api/)、[ESM-2](https://huggingface.co/facebook/esm2_t6_8M_UR50D)、[BioBERT](https://huggingface.co/dmis-lab/biobert-base-cased-v1.1)。
 
-## 6 GitHub提交状态
-
-**尚未发布；当前目录没有配置远程仓库，因此暂无真实仓库链接。** 不填虚构URL。提交成员需在实际课程GitHub仓库上传代码、README、报告、提纲、测试、小型输入/公开标签/嵌入缓存和结果，并把真实仓库链接补入本节及报告。
-
-`.gitignore`已排除模型、vendor、虚拟环境和旧版备份，避免把大文件及本机运行环境上传。上传前在另一环境按第2节验证运行；权重通过来源下载。当前目录中保存的修订材料已可供审阅，发布操作尚未执行。

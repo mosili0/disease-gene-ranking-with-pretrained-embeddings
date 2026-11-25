@@ -1,0 +1,11 @@
+# Large downloaded runtime/model assets; use bootstrap instructions instead.
+models/
+vendor/
+.venv/
+__pycache__/
+*.pyc
+*.part
+*.tmp
+archive_before_revision_*/
+.pytest_cache/
+# Inputs/labels/results and small validated embedding caches are retained.
